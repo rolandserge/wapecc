@@ -1,0 +1,58 @@
+.section-statistique {
+    margin: 3em 0;
+    background-image: url("/assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 3em 0;
+    height: auto;
+    
+    .card-stat {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-color: rgba(8, 79, 142, 0.7);
+    }
+    .title {
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        z-index: 90;
+
+        p {
+            color: white;
+            font-weight: 600;
+            font-size: 2em;
+            margin-bottom: 1.3em;
+        }
+    }
+    
+    .stat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 80;
+        gap: 5em;
+
+        div {
+            @include flex-center;
+            flex-direction: column;
+    
+            span {
+                color: #fcb900;
+                font-size: 3em;
+                font-weight: 600;
+            }
+            p {
+                color: white;
+            }
+        }
+    }
+}
+
+// .swiper-container-free-mode > .swiper-wrapper{
+//     transition-timing-function : linear;
+//   }

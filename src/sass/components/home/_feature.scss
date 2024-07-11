@@ -1,0 +1,71 @@
+.feature {
+    background-image: url("/assets/fond-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    .fond {
+        background: rgba(8, 79, 142, 0.8);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .title {
+        position: relative;
+        z-index: 70;
+        padding-top: 2.5em;
+
+        h2 {
+            text-align: center;
+            color: white;
+        }
+    }
+    .container {
+        display: grid;
+        padding: 2.5em 5em;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+
+        .card {
+            height: 33vh;
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+
+            &:hover .overlay {
+                height: 30%;
+                transition: height .6s ease-in;
+
+                p {
+                    color: white;
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .overlay {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                background: rgba($color: #000000, $alpha: .7);
+                height: 100%;
+                @include flex-center;
+                color: white;
+                transition: height .6s ease-in;
+
+                p {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 1.3em;
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
