@@ -1,0 +1,74 @@
+.official {
+    background-image: url("/assets/partner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    .overlay {
+        background: rgba($color: #000000, $alpha: 0.7);
+        display: flex;
+        gap: 3em;
+        padding: 5em;
+
+        .head-official {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2em;
+
+            h2 {
+                color: $jaune;
+                width: max-content;
+                display: flex;
+                flex-direction: column;
+                gap: .3em;
+
+                &::after {
+                    content: '';
+                    width: 100%;
+                    height: .4vh;
+                    background: white;
+                }
+            }
+
+            p {
+                color: white;
+                text-align: justify;
+            }
+            .button-partner {
+                text-decoration: none;
+                width: max-content;
+                padding: .7em 1.5em;
+                border-radius: 3px;
+                background: $jaune;
+                color: white;
+
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+        .content-official {
+            width: 60%;
+            display: grid;
+            gap: 1.5em;
+            grid-template-columns: repeat(3, 1fr);
+    
+            .card-image {
+                @include flex-center;
+                background: white;
+                border-radius: 3px;
+                padding: 1em;
+                height: 20vh;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/scss';
@@ -10,9 +10,13 @@ export default function Testimonial() {
     return (
         <section className="testimonial">
             <Swiper
-                spaceBetween={15}
-                slidesPerView={3}
-                modules={[Pagination]}
+                spaceBetween={30}
+                slidesPerView={2}
+                modules={[Pagination, Autoplay]}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: true,
+                }}
                 className='mySwiper'
                 pagination={{
                     clickable: true,

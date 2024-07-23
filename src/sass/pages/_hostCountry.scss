@@ -1,0 +1,32 @@
+// Investement climate style
+
+.investment-climate {
+
+    .content-info {
+        padding: 3em 5em;
+        
+        .info {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+
+            .card-image-climate {
+                height: 45vh;
+                width: 32%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 4px;
+                }
+            }
+
+            .text-climate {
+                text-align: justify;
+                width: 65%;
+                line-height: 1.9;
+            }
+        }
+    }
+}

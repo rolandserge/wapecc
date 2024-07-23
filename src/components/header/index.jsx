@@ -1,4 +1,3 @@
-import Nav from "./nav";
 
 export default function Header() {
 
@@ -23,9 +22,6 @@ export default function Header() {
             <div className="head">
                 <img src="/assets/header.jpg"  alt="Header des logo" />
             </div>
-            <nav>
-                <Nav />
-            </nav>
         </section>
     )
 }

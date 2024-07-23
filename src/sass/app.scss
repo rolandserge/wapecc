@@ -2,6 +2,8 @@
 
 // Page
 @import "./pages/home";
+@import "./pages/about";
+@import "./pages/hostCountry";
 
 // Components
 @import "./components/header";
@@ -16,4 +18,6 @@
 @import "./components/home/newsletter";
 @import "./components/home/testimonial";
 @import "./components/home/formHost";
+@import "./components/home/official";
+@import "./components/home/galerie";
 @import "./components/footer";

@@ -1,0 +1,165 @@
+// galerie photo
+
+.galerie-photos {
+    padding: 1em 5em;
+    margin: 0 0 5em 0;
+
+    .head-galerie {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 0;
+
+        p {
+            text-transform: uppercase;
+            font-size: 2em;
+            font-weight: 600;
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: .6vh;
+                background: $jaune;
+            } 
+        }
+        .voir {
+            text-decoration: none;
+            padding: .5em 1.5em;
+            border-radius: 5px;
+            background: $jaune;
+            color: white;
+        } 
+    }
+
+    .container-galerie {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: .7em;
+    }
+}
+
+
+// Card galerie styles
+.card-galerie {
+
+    .image-galerie {
+        height: 40vh;
+        position: relative;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        transition: all .3s ease-in;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 3px;
+            transition: all .3s ease-in;
+        }
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            position: absolute;
+            background: #000;
+            overflow: hidden;
+            transition: all .3s ease-in;
+        }
+
+        &:hover > img  {
+            opacity: 0.1;
+            transition: all .3s ease-in;
+        }
+        &:hover::before {
+            opacity: 1;
+        }
+
+        &:hover .badge-galerie::before {
+            right: -5px;
+            transition: all .3s ease-in;
+        }
+
+        .badge-galerie {
+            position: absolute;
+            color: white;
+            bottom: 20px;
+            z-index: 0;
+            left: 0;
+            
+            p {
+                padding: .4em 1.5em;
+                background: $vert;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                right: 100%;
+                top: -5px;
+                z-index: -1;
+                transition: all .3s ease-in;
+                background: white;
+            }
+
+        }
+    }
+
+}
+.titre-galerie {
+    margin: .5em 0;
+}
+
+
+
+// galerie vidéo
+.galerie-video {
+    padding: 2em 5em;
+    background: $blue;
+    margin: 4em 0;
+
+    .title {
+        h2 {
+            text-transform: uppercase;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .content-video {
+        display: grid;
+        margin: 1.5em 0;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+
+        .card-video {
+            height: 40vh;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+    }
+
+    .action {
+        display: flex;
+        justify-content: right;
+        
+        .link {
+            border-radius: 3px;
+            background: $jaune;
+            padding: .6em 2em;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,41 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: Venture Konect logo 1 line FR normal.ai
+Color Mode: CMYK color
+Color Profile: none
+Ruler Units: points
+Artboard Dimensions: 675.6414 pt x 188.2833 pt
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Aquawax Pro Trial Bold (OTF)
+Aquawax Pro Trial UltraBold (OTF)
+Myriad Pro (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+NONE

@@ -5,6 +5,8 @@ import 'swiper/scss/pagination';
 import 'swiper/scss/autoplay';
 
 import { Autoplay } from 'swiper/modules';
+import { sponsors } from '../../data';
+import CardSponsor from './card';
 
 export default function Partner() {
 
@@ -29,72 +31,11 @@ export default function Partner() {
                     clickable: true,
                 }}
             >
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/cie.jpg" 
-                            alt="logo de cie"
-                        />
-                    </div>
-                    <div className='overlay'>
-                        {/* <p>CIE</p> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/anare.jpg" 
-                            alt="logo de Anare"
-                        />
-                    </div>
-                    <div className='overlay'>
-                        {/* <p>ANARE</p> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/gridco.png" 
-                            alt="logo de gridco"
-                        />
-                    </div>
-                    <div className='overlay'>
-                        {/* <p>GRIDCO</p> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/cienergies.png" 
-                            alt="logo de ci-energies"
-                        />
-                    </div>
-                    <div className='overlay'>
-                        {/* <p>CI-ENERGIES</p> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/energie.jpg" 
-                            alt="logo du minstere du petrole"
-                        />
-                    </div>
-                    <div className='overlay'>
-                        {/* <p>MINISTRY OF PETROLEUM ENERGY AND RENEWABLE ENERGIES COTE D'IVOIRE</p> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/ghana.jpg" 
-                            alt="logo du minstere du petrole"
-                        />
-                    </div>
-                    <div className='overlay'>
-                        {/* <p>MINISTRY OF ENERGY AND PETROLEUM GHANA</p> */}
-                    </div>
-                </SwiperSlide>
+                { sponsors.map(item => (
+                    <SwiperSlide key={item.id}>
+                        <CardSponsor items={item} />
+                    </SwiperSlide> 
+                ))}
             </Swiper>
         </section>
     )

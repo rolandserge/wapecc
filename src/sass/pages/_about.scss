@@ -1,0 +1,188 @@
+.about-page {
+
+    .about-content {
+        padding: 1em 0 2em 5em;
+
+        .piece1 {
+            padding-right: 5em;
+        }
+        .wapecc {
+            margin: 2em 0;
+
+            span {
+                font-size: 1.5em;
+                width: max-content;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -.2em;
+                    width: 50%;
+                    display: inline-block;
+                    background: $orange;
+                    height: .7vh;
+                }
+             }
+
+            .lome {
+                
+                .head {
+                    display: flex;
+                    margin: 1.2em 0;
+                    gap: 1.5em;
+
+                    .info {
+                        width: 72%;
+                        text-align: justify;
+                    }
+                    .card-image {
+                        height: 50vh;
+                        width: 28%;
+
+                        img {
+                            height: 100%;
+                            object-fit: cover;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .other-info {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 2em;
+                    row-gap: 1em;
+
+                    div {
+                        text-align: justify;
+                        font-size: 1em;
+                    }
+                }
+            }
+
+            .africa {
+                margin: 2em 0;
+                text-align: justify;
+                display: flex;
+                gap: 2em;
+                height: 94vh;
+                // line-height: 2;
+                
+                .info {
+                    width: 55%;
+                    // padding: .5em;
+                    // border: 1px solid;
+                }
+
+                .card-image {
+                    width: 45%;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 5px 0 0 5px;
+                    }
+                }
+            }
+
+            .togo {
+                margin: 2em 0;
+                padding-right: 5em;
+
+                .items {
+                    display: flex;
+                    gap: 1.5em;
+                    margin: .6em 0;
+
+                    .item {
+                        display: flex;
+                        gap: .8em;
+                        text-align: justify;
+
+                        .icon {
+                            font-size: 30px;
+                            width: 20%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-galerie {
+            padding-right: 5em;
+            margin: 3em 0;
+
+            .about-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 2em 0;
+
+                .lien {
+                    text-decoration: none;
+                    background: $jaune;
+                    color: white;
+                    padding: .5em 1.5em;
+                    border-radius: 4px;
+                }
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: .8em;
+            }
+        }
+
+    }
+}
+
+
+.sponsor-offical-section {
+    margin: 3em 0;
+    padding-right: 5em;
+
+    .titre {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 3.5em 0;
+    }
+}
+
+// banner global style
+
+.banner-model {
+    height: 55vh;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        color: white;
+        background: rgba($color: #000000, $alpha: .8);
+        @include flex-center;
+        flex-direction: column;
+        gap: 1em;
+
+        h2 {
+            font-size: 2.8em;
+            text-transform: uppercase;
+        }
+
+        p {
+            width: 50%;
+            text-align: center;
+        }
+    }
+}

@@ -62,85 +62,95 @@
             }
         }
     }
-
 }
 
-.menu-nav {
+
+// Navigation
+nav {
+    
     background: #129047;
-    padding: 0 5em 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3em;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    transition: all 0.3s ease-in-out;
     
-    
-    li {
-        list-style: none;
-        text-transform: uppercase;
-        color: white;
-        cursor: pointer;
-        font-weight: 600;
-        position: relative;
-        padding: .7em 0;
-
-        &:hover > span {
-            color: #fcb900;
-        }
-        &:hover .submenu {
-            height: auto;
-            padding: 1em 1.5em;
-            opacity: 1;
-            transition: opacity 0.3s ease-in-out;
-        }
-    }
-    .icon {
-        font-size: 1.2em;
-    }
-
-    .contact {
-        text-decoration: none;
-        color: white;
-
-        &:hover {
-            color: #fcb900;
-        }
-    }
-
-    .submenu {
-        width: max-content;
-        border-radius: 3px;
-        background: $blue;
-        position: absolute;
-        height: 0;
-        opacity: 0;
-        overflow: hidden;
-        transition: height 0.3s ease-in-out;
-        top: 3em;
-        left: -1.5em;
-
-        li {
-            border-bottom: 1px solid lightgray;
-            padding: .9em 0;
-            font-size: .8em;
-            font-weight: 600;
-
-            &:last-child {
-                border-bottom: none;
-            }
-
-        }
+    .menu-nav {
+        transition: all 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
         
-        .lien {
+        li {
+            list-style: none;
+            text-transform: uppercase;
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+            position: relative;
+            padding: 1.3em 0;
+    
+            &:hover > span {
+                color: #fcb900;
+            }
+            &:hover .submenu {
+                height: auto;
+                padding: 1em 1.5em;
+                opacity: 1;
+                transition: opacity 0.3s ease-in-out;
+            }
+        }
+        .icon {
+            font-size: 1.2em;
+        }
+    
+        .contact {
             text-decoration: none;
             color: white;
-
+    
             &:hover {
-                color: gray;
-                transition: .2s;
+                color: #fcb900;
+            }
+        }
+    
+        .submenu {
+            width: max-content;
+            border-radius: 3px;
+            background: $blue;
+            position: absolute;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: height 0.3s ease-in-out;
+            top: 4.2em;
+            left: -1.5em;
+    
+            li {
+                border-bottom: 1px solid lightgray;
+                padding: .9em 0;
+                font-size: .8em;
+                font-weight: 600;
+                text-transform: uppercase;
+    
+                &:last-child {
+                    border-bottom: none;
+                }
+    
+            }
+            
+            .lien {
+                text-decoration: none;
+                color: white;
+    
+                &:hover {
+                    color: gray;
+                    transition: .2s;
+                }
             }
         }
     }
 }
+
 
 .banner {
     height: 67vh;

@@ -5,9 +5,6 @@ export default function Statistic() {
     return (
         <section className='section-statistique'>
             <div className="card-stat"></div>
-            <div className='title'>
-                <p>Conference Statistics</p>
-            </div>
             <div className='stat'>
                 <div>
                     <CountUp
@@ -16,6 +13,7 @@ export default function Statistic() {
                         duration={4}
                         separator=" "
                         suffix="+"
+                        enableScrollSpy="true"
                     >
                         <span></span>
                     </CountUp>
@@ -28,6 +26,7 @@ export default function Statistic() {
                         duration={4}
                         separator=" "
                         suffix="+"
+                        enableScrollSpy="true"
                     >
                         <span></span>
                     </CountUp>
@@ -40,6 +39,7 @@ export default function Statistic() {
                         duration={4}
                         separator=" "
                         suffix="+"
+                        enableScrollSpy="true"
                     >
                         <span></span>
                     </CountUp>

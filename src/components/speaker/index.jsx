@@ -16,8 +16,8 @@ export default function Speaker() {
         </div>
         <div className="container">
           <Swiper
-            spaceBetween={15}
-            slidesPerView={4}
+            spaceBetween={120}
+            slidesPerView={3}
             modules={[Pagination, Autoplay]}
             className='mySwiper'
             autoplay={{
