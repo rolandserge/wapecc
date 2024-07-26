@@ -1,5 +1,5 @@
 
-export default function Banner({ image, title }) {
+export default function Banner({ image, title, subtitle }) {
 
     return (
         <div className="banner-model">
@@ -10,10 +10,7 @@ export default function Banner({ image, title }) {
             />
             <div className="overlay">
                 <h2>{title}</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, dolorum!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dignissimos?
-                </p>
+                <p>{subtitle}</p>
             </div>
         </div>
     )

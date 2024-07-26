@@ -17,37 +17,38 @@ export default function Nav() {
                     </ul>
                 </li>
                 <li>
-                    <span>Participate</span>
-                    <ul className="submenu">
+                    <Link to="/participate/sponsor" className="contact">Participate</Link>
+                    {/* <ul className="submenu">
                         <li><Link to="#" className="lien">AS A DELEGATE</Link></li>
-                        <li><Link to="#" className="lien">SPONSORS AND EXHIBITORS</Link></li>
-                    </ul>
+                        <li><Link to="/participate/sponsor" className="lien">SPONSORS AND EXHIBITORS</Link></li>
+                    </ul> */}
                 </li>
                 <li>
                     <span>The host country</span>
                     <ul className="submenu">
                         <li><Link to="/host-country/investment-climate" className="lien">INVESTMENT CLIMATE</Link></li>
-                        <li><Link to="#" className="lien">Political & Economic Environment</Link></li>
-                        <li><Link to="#" className="lien">ECONOMIC DIVERSIFICATION</Link></li>
-                        <li><Link to="#" className="lien">Business Environment</Link></li>
-                        <li><Link to="#" className="lien">Strategic Regional Location</Link></li>
+                        <li><Link to="/host-country/political-environment" className="lien">Political & Economic Environment</Link></li>
+                        <li><Link to="/host-country/economic-diversification" className="lien">ECONOMIC DIVERSIFICATION</Link></li>
+                        <li><Link to="/host-country/business-environment" className="lien">Business Environment</Link></li>
+                        <li><Link to="/host-country/regional-location" className="lien">Strategic Regional Location</Link></li>
                     </ul>
                 </li>
                 <li>
                     <span>Register</span>
                     <ul className="submenu">
-                        <li><Link to="#" className="lien">REGISTER</Link></li>
-                        <li><Link to="#" className="lien">SPONSORSHIP REGISTRATION</Link></li>
+                        <li><Link to="/register" className="lien">REGISTER</Link></li>
+                        <li><Link to="/register" className="lien">SPONSORSHIP REGISTRATION</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <span>Downloads</span>
+                    {/* <span>Downloads</span>
                     <ul className="submenu">
                         <li><Link to="#" className="lien">DOWNLOAD BROCHURE</Link></li>
                         <li><Link to="#" className="lien">DOWNLOAD THE FEDERAL MINISTER OF POWER&lsquo;S BACKING LETTER</Link></li>
                         <li><Link to="#" className="lien">DOWNLOAD YOUR INVITATION</Link></li>
                         <li><Link to="#" className="lien">WAPECC19 POST SHOW REPORT</Link></li>
-                    </ul>
+                    </ul> */}
+                    <Link to="/as-delegate" className="contact">As delegate</Link>
                 </li>
                 <li>
                     <span>Media</span>
@@ -59,7 +60,7 @@ export default function Nav() {
                         <li><Link to="#" className="lien">VIDEO GALLERY</Link></li>
                     </ul>
                 </li>
-                <li><Link to="#" className="contact">Contacts</Link></li>
+                <li><Link to="/contact" className="contact">Contacts</Link></li>
             </ul>
         </nav>
     )

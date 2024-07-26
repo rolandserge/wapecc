@@ -30,3 +30,104 @@
         }
     }
 }
+
+// policatal environnement styles
+
+.political-environnement {
+
+    .political-content {
+        padding: 2em 5em;
+    }
+}
+
+// diversification environnement styles 
+.diversification {
+
+    .diversification-content {
+        padding: 2em 0;
+        
+        .content {
+            display: flex;
+            justify-content: center;
+
+            .element {
+                width: 65%;
+
+                p {
+                    text-align: justify;
+                }
+
+                .items1 {
+                    margin: 1em 0;
+
+                    .item {
+                        display: flex;
+                        gap: .5em;
+                        margin-bottom: 2em;
+
+                        span {
+                            padding: .2em;
+
+                            .icon {
+                                color: $vert;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// business environnment styles
+
+.business-environnement {
+
+    .business-content {
+        padding: 2em 5em;
+        
+        .elements {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            .info {
+                width: 60%;
+                text-align: justify;
+
+                .items {
+                    margin: 1.5em 0;
+
+                    .item {
+                        display: flex;
+                        gap: .5em;
+                        margin-bottom: 1.5em;
+
+                        span {
+                            padding: .2em;
+                            color: $vert
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// strategic location regional
+.location-regional {
+
+    .location-content {
+
+        padding: 2em 5em;
+
+        .content {
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            text-align: justify;
+        }
+    }
+}

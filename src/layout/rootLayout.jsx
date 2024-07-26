@@ -12,7 +12,7 @@ export default function RootLayout() {
                 <Header />
             </header>
             <Nav />
-            <body>
+            <body style={{ background: "#f1f1f1"}}>
                 <Outlet />
             </body>
             <footer>

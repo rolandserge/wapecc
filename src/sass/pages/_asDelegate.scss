@@ -1,0 +1,65 @@
+.as-delegate-page {
+
+    .as-delegate-content {
+        padding: 3em 5em;
+
+        .elements {
+
+            .delegate {
+                display: flex;
+                align-items: center;
+                gap: 3em;
+                margin-bottom: 2em;
+
+                .info {
+                    width: 50%;
+                    
+                    p {
+                        text-align: justify;
+                    }
+
+                    span {
+                        color: $orange;
+                        text-decoration: underline;
+                    }
+                }
+
+                .tableau {
+                    width: 50%;
+
+                    p {
+                        text-decoration: underline;
+                        font-size: 1.2em;
+                    }
+                    table {
+                        margin-top: 1em;
+                        border-collapse: collapse;
+                    }
+                    table, th, td {
+                        border: 1px solid;
+                        padding: .7em;
+                    }
+                      
+                }
+            }
+
+            .participation {
+                width: 48%;
+                margin-bottom: 3em;
+
+                p {
+                    text-align: justify;
+                }
+            }
+            .action-button {
+                .register {
+                    text-decoration: none;
+                    background: $jaune;
+                    padding: .9em 2em;
+                    color: white;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
