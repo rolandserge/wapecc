@@ -1,5 +1,5 @@
-
-import React from 'react'
+import { Link } from 'react-router-dom'
+import { HiArrowSmRight } from "react-icons/hi";
 
 export default function About() {
 
@@ -8,20 +8,22 @@ export default function About() {
             <div className='about'>
                 <div className='header'>
                     <div className='title'>
-                        <span>ABOUT VIRTUAL WAPECC21</span>
+                        <span>About WAPECC Lome23</span>
                     </div>
                     <p>
-                        Under the high patronage of H.E Minister of the Federal Ministry of Power of Nigeria and 
-                        with the support of the Economic Community of West African States, Konect Group were
-                            proud to present the second edition of the  West African Power and Energy 
-                        Cooperation Conference (WAPECC 21) which took place virtually from 3rd – 4th  June 2021.
-                        <br /><br />
-                        Virtual WAPECC Abuja provided an intimate platform to network and socialise, and brought 
-                        together the region’s top decision makers, international investors, 
-                        leading technology providers, power developers, donor bodies, development 
-                        partners, management consultancy firms, and other professionals from around 
-                        the globe and from across West Africa
+                    Under the awaited esteemed Patronage of His Excellency 
+                    Mr. Faure Essozimna Gnassingbé, President of the Republic of Togo, and 
+                    chaired by Madame Mawunyo Mila Ami AZIABLE, Minister Delegate to the President of the Republic in charge of Energy and Mines 
+                    of Togo, with the facilitation of the ECOWAS Energy and Mines Commission and the support 
+                    of the West African Development Bank, Venture Konect Ltd is pleased to present the 3rd edition 
+                    of the West Africa Power and Energy Cooperation Conference (WAPECC23). This event is tentatively 
+                    scheduled to take place from January <strong>23rd to 25th, 2025, in Lomé, Togo</strong>.
                     </p>
+                    <div className='action-about'>
+                        <Link to="#" className='about-us'>
+                            More about us <HiArrowSmRight className='icon' size={25} />
+                        </Link>
+                    </div>
                 </div>
                 <div className='image-card'>
                     <img 

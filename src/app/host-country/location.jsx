@@ -35,7 +35,11 @@ export default function LocationRegional() {
                         />
                     </div>
                 </div>
-                <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial 
+                    sponsors={sponsors} 
+                    title="Offical endorsing partners"
+                    features
+                />
             </div>
         </div>
     )

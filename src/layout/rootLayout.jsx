@@ -7,19 +7,19 @@ import Nav from "../components/header/nav"
 export default function RootLayout() {
 
     return (
-        <html lang="en" style={{ position: "relative"}}>
+        <div style={{ background: "#f3f7f9", position: "relative"}}>      
             <header>
                 <Header />
             </header>
             <Nav />
-            <body style={{ background: "#f1f1f1"}}>
+            <section>
                 <Outlet />
-            </body>
+            </section>
             <footer>
                 <Footer />
             </footer>
 
             <Reseaux />
-        </html>
+        </div>
     )
 }

@@ -7,7 +7,9 @@ export default function Galerie() {
         <section className="galerie-photos">
             <div className="head-galerie">
                 <p>Image gallery</p>
-                <Link to="#" className="voir">See more</Link>
+                <Link to="#" className="voir">
+                    See more
+                </Link>
             </div>
             <div className="container-galerie">
                 { galeries.map(item => (

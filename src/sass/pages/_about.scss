@@ -142,12 +142,70 @@
 
 .sponsor-offical-section {
     margin: 3em 0;
-    padding-right: 5em;
+
+    .feature-user {
+        display: grid;
+        gap: 2em;
+        padding: 3em 0;
+        grid-template-columns: repeat(3, 1fr);
+
+        .card {
+            padding: 3em 2em;
+            border-radius: 5px;
+            background: #dae1ed;
+
+            &:hover {
+                background: $blue;
+                color: white;
+            }
+
+            .head {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+
+                .card-icon {
+                    @include flex-center;
+                    padding: .6em;
+                    border-radius: 50%;
+                    background: white;
+
+                    .icon {
+                        font-size: 40px;
+                        color: black;
+                    }
+                }
+                p {
+                    font-size: 1.3em;
+                }
+            }
+            .description {
+                margin: 1em 0 1.5em 0;
+            }
+
+            .action {
+
+                .register {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: .5em;
+                    text-transform: uppercase;
+                    color: $orange;
+                    font-weight: 600;
+
+                    .icon {
+                        // border: 1px solid;
+                    }
+                }
+            }
+        }
+    }
 
     .titre {
         text-align: center;
         font-size: 1.5em;
-        margin: 3.5em 0;
+        padding: 2em 0;
     }
 }
 

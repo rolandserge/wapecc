@@ -5,15 +5,16 @@
         display: flex;
         gap: 2em;
         align-items: center;
+        justify-content: space-between;
 
         .header {
-            width: 50%;
+            width: 65%;
 
             .title {
                 margin-bottom: 1em;
 
                 span {
-                    font-size: 2em;
+                    font-size: 1.5em;
                     display: flex;
                     flex-direction: column;
                     width: max-content;
@@ -27,10 +28,30 @@
                     font-size: 0.5em;
                 }
             }
+
+            .action-about {
+                margin-top: 2em;
+
+                .about-us {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    gap: .7em;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: $orange;
+                }
+            }
+
+            p {
+                text-align: justify;
+            }
         }
         .image-card {
-            width: 40%;
-            height: 60vh;
+            width: 28%;
+            height: 50vh;
+            border-radius: 50%;
+            overflow: hidden;
 
             img {
                 width: 100%;

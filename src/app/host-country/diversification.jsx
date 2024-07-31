@@ -120,7 +120,11 @@ export default function Diversification() {
                     </div>
                 </div>
 
-                <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial 
+                    sponsors={sponsors} 
+                    title="Offical endorsing partners"
+                    features
+                />
             </div>
         </div>
     )

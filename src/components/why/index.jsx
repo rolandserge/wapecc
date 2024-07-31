@@ -1,4 +1,4 @@
-import React from 'react'
+import ButtonModel from "../button"
 
 export default function Why() {
 
@@ -6,30 +6,27 @@ export default function Why() {
         <section className='why'>
             <div className='card-image'>
                 <img 
-                    src="/assets/why.jpg" 
+                    src="/assets/africa.webp" 
                     alt="pourquoi wapecc en Afrique de l'ouest"     
                 />
             </div>
             <div className='data'>
-                <span>WHY WAPECC IN WEST AFRICA?</span>
+                <span>Why WAPECC in West Africa ? </span>
                 <p>
-                    Generally speaking, in the West African countries, including Nigeria, the electric 
-                    power sector is one of the 
-                    essential pillars of the economic and indirect development of nation states.
-                    <br />
-                    Most development programs are aimed at providing better security of 
-                    supply, affordable and sustainable energy, optimal reconciliation of 
-                    energy solutions and improving performance in the sector. WAPECC, 
-                    a bi-annual meeting convened as a follow-up to the regional meetings. 
-                    It is the region’s only independent international reference platform 
-                    that enables the private sector to find and engage with the region’s 
-                    energy sector authorities and to understand the different priority projects 
-                    that will need either funding or technology partners.
-                    <br /> <br />
-                    Alongside government-led efforts, young and dynamic populations across the 
-                    African continent have a unique opportunity to contribute and develop their 
-                    economies in smarter, more innovative ways in this post pandemic world.
+                    WAPECC23&apos;s choice to be held in West Africa underscores the region&apos;s 
+                    significance as a focal point for energy development and collaboration. 
+                    This gathering brings together policymakers, industry leaders, investors, and 
+                    innovators from across West Africa, fostering collaboration and synergies essential 
+                    for addressing common energy challenges. By facilitating dialogue and knowledge exchange, 
+                    WAPECC strengthens regional partnerships, promotes collective action, and advances shared 
+                    energy goals critical for sustainable development.
                 </p>
+                <div className='card-button-action'>
+                    <ButtonModel 
+                        title="More about us"
+                        lien="#"
+                    />
+                </div>
             </div>
         </section>
     )

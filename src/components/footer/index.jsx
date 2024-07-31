@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="card">
                     <div className="image">
                         <img
-                            src="/assets/konect.png"
+                            src="/assets/logo/logo-venture.png"
                             alt="Le logo de WAPECC"
                         />
                     </div>

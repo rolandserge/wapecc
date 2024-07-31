@@ -24,7 +24,11 @@ export default function PoliticalEnvironnement() {
                     Togo enjoys a favourable climate in terms of peace and security, linked to lasting political stability and human capital, which constitute advantages that support development, supported by ambitious reforms and major projects of infrastructure.
                 </p>
 
-                <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial 
+                    sponsors={sponsors} 
+                    title="Offical endorsing partners"
+                    features
+                />
             </div>
         </div>
     )

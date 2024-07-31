@@ -64,8 +64,21 @@
                 
                 .card-element {
                     padding: 2em;
-                    background: #B2B2FF;
+                    background: #a58f5f;
                     border-radius: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    
+                    &:nth-child(2) {
+                        background: #a7a9aa;
+                    }
+                    &:nth-child(3) {
+                        background: #4f4f4f;
+                    }
+                    &:last-child {
+                        background: #a4623f;
+                    }
 
                     .head {
                         padding-bottom: 2em;
@@ -83,7 +96,6 @@
                     }
 
                     .info-package {
-                        // display: flex;
                         gap: 1em;
 
                         .element {
@@ -114,15 +126,22 @@
                     .action-button {
                         margin-top: 2em;
                         @include flex-center;
-
+                        
                         .register {
                             text-decoration: none;
                             text-align: center;
-                            padding: .5em .5em;
+                            padding: .8em .5em;
                             border-radius: 4px;
                             width: 70%;
-                            background: $jaune;
-                            color: white;
+                            background: white;
+                            color: $jaune;
+
+                            
+                            &:hover {
+                                background: $jaune;
+                                color: white;
+                            }
+                        
                         }
                     }
                 }

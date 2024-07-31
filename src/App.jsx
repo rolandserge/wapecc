@@ -24,7 +24,7 @@ function App() {
             element: <Home />,
           },
           {
-            path: "/participate/sponsor",
+            path: "/participate",
             element: <Sponsor />
           },
           {

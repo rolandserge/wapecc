@@ -80,6 +80,10 @@ nav {
         align-items: center;
         justify-content: center;
         gap: 3em;
+
+        .active {
+            color: #fcb900;
+        }
         
         li {
             list-style: none;
@@ -111,6 +115,9 @@ nav {
             &:hover {
                 color: #fcb900;
             }
+        }
+        .contact.active {
+            color: #fcb900;
         }
     
         .submenu {

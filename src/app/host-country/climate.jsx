@@ -11,9 +11,10 @@ export default function InvestmentClimate() {
                 title="Investment Climate"
                 image="/assets/conference.jpg"
                 subtitle=" Located in the inter-tropical coastal zone of West Africa, Togo is a privileged destination for investment in promising sectors put forward by Togo."
+                more="More"
             />
             <div className="content-info">
-                <div className="info">
+                <div className="info" id="more">
                     <div className="card-image-climate">
                         <img 
                             src="/assets/climate.jpg" 
@@ -22,8 +23,6 @@ export default function InvestmentClimate() {
                     </div>
                     <div className="text-climate">    
                         <p>
-                            Located in the inter-tropical coastal zone of West Africa, Togo is a privileged destination for investment in promising sectors put forward by Togo.
-                            <br />
                             The Togolese government has implemented several measures to improve the business climate, making it more conducive for investment. These reforms include:
                             Investment Incentives: The government offers various incentives to attract foreign direct investment (FDI), such as tax breaks, customs exemptions, and simplified procedures for investors.
                             <br />
@@ -33,7 +32,11 @@ export default function InvestmentClimate() {
                     </div>
                 </div>
 
-                <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial 
+                    sponsors={sponsors} 
+                    title="Offical endorsing partners"
+                    features
+                />
             </div>
         </div>
     )

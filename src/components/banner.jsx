@@ -1,5 +1,6 @@
+import { Link } from "react-scroll";
 
-export default function Banner({ image, title, subtitle }) {
+export default function Banner({ image, title, subtitle, more }) {
 
     return (
         <div className="banner-model">
@@ -10,7 +11,15 @@ export default function Banner({ image, title, subtitle }) {
             />
             <div className="overlay">
                 <h2>{title}</h2>
-                <p>{subtitle}</p>
+                <p>
+                    {subtitle + " "}
+                    <Link 
+                        to="more" smooth={true} spy={true}
+                        style={{ color: "orange", cursor: "pointer", textDecoration: "underline"}}
+                    >
+                        {more && "More"}
+                    </Link>
+                </p>
             </div>
         </div>
     )

@@ -17,21 +17,23 @@ export default function About() {
             />
             <div className="about-content">
                 <div className="wapecc piece1">
-                    <span>About WAPECC23 in Lome</span>
+                    <span>About WAPECC Lome 23</span>
                     <div className="lome">
                         <div className="head">
                             <div className="info">
                                 <p>
-                                    Under the awaited Patronage of His Excellency Mr. Faure Essozimna Gnassingbé, President of the Republic of Togo, 
-                                    and chaired by Madame Mawunyo Mila Ami AZIABLE, Minister Delegate to the President of the Republic, in charge 
-                                    of Energy and Mines of Togo, with the facilitation of the ECOWAS Energy and Mines commission and the 
-                                    Support of the West African Development Bank, Venture Konect Ltd are pleased to present the 3rd edition 
-                                    of the West Africa Power and Energy Cooperation Conference (WAPECC23) which will take place tentatively from the 23rd – 25th January 2025 in Lome-Togo.
+                                    Under the awaited esteemed Patronage of His Excellency Mr. Faure Essozimna Gnassingbé, President of the 
+                                    Republic of Togo, and chaired by Madame Mawunyo Mila Ami AZIABLE, Minister Delegate to the President of the 
+                                    Republic in charge of Energy and Mines of Togo, with the facilitation of the ECOWAS Energy and Mines Commission 
+                                    and the support of the West African Development Bank, Venture Konect Ltd is pleased to present the 3rd edition 
+                                    of the West Africa Power and Energy Cooperation Conference (WAPECC23). This event is tentatively scheduled to 
+                                    take place from <strong>January 23rd to 25th, 2025, in Lomé, Togo</strong>.
                                     <br />
-                                    WAPECC is a regional reference platform that will take place annually with the 
-                                    fundamental objective to promote regional resources and governments strategic plans for sustainable energy development.
-                                    <br /> <br />
-                                    WAPECC focuses on energy/Mines, infrastructure and project financing; addressing the key challenges facing the energy market and paving the way for investment in the sector to help businesses and markets create jobs and boost economies, whilst developing regional cooperation and interconnectivity between the member countries of the Economic Community of West African States (ECOWAS)
+                                    WAPECC is a biennial regional platform aimed at promoting regional resources and government strategies for 
+                                    sustainable energy development. The conference focuses on energy, infrastructure, and project financing, addressing 
+                                    key challenges in the energy market and paving the way for investment in the sector. This, in turn, helps businesses 
+                                    and markets create jobs, boost economies, and foster regional cooperation and interconnectivity among the member countries 
+                                    of the Economic Community of West African States (ECOWAS).
                                 </p>
                             </div>
                             <div className="card-image">
@@ -44,51 +46,52 @@ export default function About() {
                         <div className="other-info">
                             <div>
                                 <p>
-                                    The energy and infrastructure sector in West Africa is undergoing a pivotal transformation, 
-                                    with a growing emphasis on diversifying the energy mix and expanding access to reliable and 
-                                    affordable energy sources. Historically reliant on fossil fuels, the region is now witnessing 
-                                    increased investment in renewable energy sources such as solar, wind, and hydroelectric power. 
-                                    This shift towards cleaner and more sustainable energy sources not only enhances energy security 
-                                    but also mitigates the environmental impacts of traditional energy sources. Moreover, efforts to 
-                                    improve infrastructure, including electricity grids and transport networks,
+                                    West Africa, endowed with abundant natural resources and energy potential, is undergoing a pivotal 
+                                    transformation. New leadership is crafting a narrative centred on economic transformation and energy security, 
+                                    aiming for energy sovereignty through the development of regional oil, gas, and other natural resources. 
+                                    The mining sector plays a crucial role in enhancing energy sector development by integrating mining activities 
+                                    with energy initiatives, fostering a robust and interconnected economic framework.
+                                    <br />
+                                    Collectively, we aim to foster dialogue that secures a narrative of opportunity, collaboration, localization, and 
+                                    shared commitment. By harnessing West Africa &apos;s natural wealth, we strive for sustainable development, ensuring 
+                                    the benefits reach all its people. Through strategic partnerships and localized efforts, we can transform the region’s 
+                                    resource abundance into a foundation for long-term prosperity and stability.
                                 </p>
                             </div>
                             <div>
                                 <p>
-                                    are underway to support economic growth, facilitate regional trade, and enhance connectivity.
-                                    However, significant challenges persist, including disparities in energy access between urban and 
-                                    rural areas, inadequate infrastructure, and the impacts of climate change. Millions of people in 
-                                    West Africa still lack access to electricity, hindering socio-economic development and perpetuating 
-                                    cycles of poverty. Addressing these challenges requires concerted efforts from governments, 
-                                    development partners, and the private sector to invest in energy infrastructure, promote renewable 
-                                    energy technologies, and enhance regional cooperation.
+                                    As the world tackles the international energy transition, West Africa strides towards energy independence, standing 
+                                    with its international partners as beacons of progress. Historically reliant on fossil fuels, the region is now witnessing 
+                                    increased investment in various energy sources. This shift towards cleaner, sustainable energy enhances energy security and 
+                                    mitigates the environmental impacts of traditional energy sources. Efforts to improve infrastructure, including electricity 
+                                    grids and transport networks, support economic growth, facilitate regional trade, and enhance connectivity.
+                                    <br />
+                                    Progressive policies are fostering highly competitive markets, driving an integrated oil, gas, and renewable energy mix. 
+                                    At the forefront of this journey is the regional commitment to develop international partnerships that will drive economic 
+                                    development, shared growth, and wealth creation for the region and its people.
                                 </p>
                             </div>
                             <div>
                                 <p>
-                                    By leveraging the region&apos;s abundant renewable 
-                                    energy resources and fostering partnerships, West Africa can unlock its energy potential, improve living 
-                                    standards, and achieve sustainable development goals.
-                                    The West African Power and Energy Cooperation Conference and Exhibition (WAPECC) 
-                                    serves as a crucial platform to address the pressing challenges and leverage 
-                                    the opportunities in the region&apos;s energy and infrastructure sector. 
-                                    By convening stakeholders from government, industry, academia, and civil society, 
-                                    WAPECC facilitates dialogue, knowledge sharing, and collaboration towards sustainable 
-                                    energy development.
+                                    However, significant challenges persist, including disparities in energy access between urban and rural areas, inadequate infrastructure, 
+                                    and climate change impacts. Millions of people in West Africa still lack access to electricity, hindering socio-economic development and 
+                                    perpetuating cycles of poverty. Accelerating Africa&poas;s socio-economic development requires international partnerships, global capital 
+                                    infusion, and mastering a balanced and integrated approach to oil, gas, and renewable energy, supported by the mining sector, demonstrating 
+                                    Africa’s commitment to responsible resource management. <br />
+                                    The West African Power and Energy Cooperation Conference (WAPECC) serves as a crucial platform to address pressing challenges and leverage 
+                                    opportunities in the region&apos;s energy and infrastructure sectors. 
                                 </p>
                             </div>
                             <div>
                                 <p>
-                                    The event provides an avenue to showcase innovative solutions, discuss 
-                                    policy reforms, and catalyse investments in renewable energy projects, infrastructure development, 
-                                    and off-grid solutions. 
-                                    Through WAPECC, stakeholders can identify synergies, forge partnerships, and 
-                                    chart a collective path towards achieving universal energy access, promoting economic growth, 
-                                    and advancing regional integration in West Africa.
-                                    WAPECC Lome23 is the 3rd of a series of events held in the region, 
-                                    to bring together the key players and drive forward the region&apos;s 
-                                    energy and infrastructure transformation, ensuring that reliable and 
-                                    affordable energy becomes a reality for all. 
+                                    By convening stakeholders from government, industry, academia, and civil society, WAPECC facilitates dialogue, knowledge sharing, and 
+                                    collaboration towards sustainable energy development. The event showcases innovative solutions, discusses policy reforms, and catalyses 
+                                    investments in energy projects and infrastructure development, serving as a vital deal-making regional platform. Through WAPECC, ECOWAS 
+                                    states can highlight regional opportunities, stakeholders can identify synergies, forge partnerships, and chart a collective path towards 
+                                    energy access, economic growth, and regional integration in West Africa. <br />
+                                    WAPECC Lome23, the 3rd in this series of events, aims to bring together key players and drive forward the region&apos;s energy and 
+                                    infrastructure transformation, ensuring reliable and affordable energy for all. Join us to get the latest updates on the sector in 
+                                    this promising region and develop your project pipelines.
                                 </p>
                             </div>
                         </div>
@@ -171,7 +174,11 @@ export default function About() {
                     </div>
                 </div>
 
-               <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial 
+                    sponsors={sponsors}
+                    title="Offical endorsing partners"
+                    features
+                />
             </div>
         </section>
     )

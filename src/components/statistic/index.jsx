@@ -15,7 +15,7 @@ export default function Statistic() {
                         suffix="+"
                         enableScrollSpy="true"
                     >
-                        <span></span>
+                        {({ countUpRef }) => <span ref={countUpRef} />}
                     </CountUp>
                     <p>Number of Delegates</p>
                 </div>
@@ -28,7 +28,7 @@ export default function Statistic() {
                         suffix="+"
                         enableScrollSpy="true"
                     >
-                        <span></span>
+                        {({ countUpRef }) => <span ref={countUpRef} />}
                     </CountUp>
                     <p>Number of Speakers</p>
                 </div>
@@ -41,7 +41,7 @@ export default function Statistic() {
                         suffix="+"
                         enableScrollSpy="true"
                     >
-                        <span></span>
+                        {({ countUpRef }) => <span ref={countUpRef} />}
                     </CountUp>
                     <p>Number of Exhibitors</p>
                 </div>

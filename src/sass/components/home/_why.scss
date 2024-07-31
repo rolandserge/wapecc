@@ -1,13 +1,13 @@
 .why {
-    background: #f3f7f9;
-    padding: 2.5em 5em;
+    background: white;
+    padding: 5em;
     display: flex;
     align-items: center;
     gap: 2em;
 
     .card-image {
-        width: 35%;
-        height: 55vh;
+        width: 50%;
+        height: 60vh;
         overflow: hidden;
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
@@ -15,25 +15,40 @@
         img {
             width: 100%;
             height: 100%;
-            object-fit: fill;
+            object-fit: cover;
         }
     }
     .data {
-        width: 65%;
+        width: 50%;
         text-align: justify;
 
         span {
-            font-weight: 600;
             font-size: 1.5em;
             display: flex;
             flex-direction: column;
             width: max-content;
-            padding-bottom: .6em;
+            padding-bottom: 1em;
         }
         span::after {
             content: '';
             height: .4vh;
             background: $orange;
         }
+
+        .card-button-action {
+            margin-top: 1.5em;
+        }
     }
+}
+
+// buton model style
+
+.button-action-model {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $orange;
+    font-weight: 600;
 }

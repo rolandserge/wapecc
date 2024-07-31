@@ -60,7 +60,11 @@ export default function AsDelegate() {
                         <Link to="/register" className="register">Register as a delegate</Link>
                     </div>
                 </div>
-                <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial 
+                    sponsors={sponsors} 
+                    title="Offical endorsing partners"
+                    features
+                />
             </div>
         </div>
     )
