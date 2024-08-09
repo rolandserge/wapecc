@@ -5,7 +5,7 @@ export default function Feature() {
         <section className='feature'>
             <div className="fond"></div>
             <div className='title'>
-                <h2>VIRTUAL WAPECC21 FEATURES</h2>
+                <p>WAPECC 23 features</p>
             </div>
             <div className="container">
                 <div className='card'>

@@ -26,7 +26,7 @@ export default function SponsorOfficial({ sponsors, title, features }) {
                         </p>
                     </div>
                     <div className="action">
-                        <Link to="#" className="register">
+                        <Link to="/participate/as-exhibitor" className="register">
                             Explore more
                             <HiArrowSmRight className="icon" />
                         </Link>
@@ -46,7 +46,7 @@ export default function SponsorOfficial({ sponsors, title, features }) {
                         </p>
                     </div>
                     <div className="action">
-                        <Link to="#" className="register">
+                        <Link to="/participate/sponsor" className="register">
                             Explore more
                             <HiArrowSmRight className="icon" />
                         </Link>
@@ -66,7 +66,7 @@ export default function SponsorOfficial({ sponsors, title, features }) {
                         </p>
                     </div>
                     <div className="action">
-                        <Link to="#" className="register">
+                        <Link to="/participate/as-delegate" className="register">
                             Explore more
                             <HiArrowSmRight className="icon" />
                         </Link>
@@ -75,7 +75,7 @@ export default function SponsorOfficial({ sponsors, title, features }) {
             </div>
         ) }
         <div className='titre'>
-            <p>{title}</p>
+            <p>{title ? title : "Our partners"}</p>
         </div>
         <Swiper
             spaceBetween={20}

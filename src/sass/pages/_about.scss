@@ -243,3 +243,112 @@
         }
     }
 }
+
+
+// full liste of speaker
+
+.speaker-page {
+
+    .speaker-page-content {
+        padding: 5em;
+
+        .speakers {
+
+            .title {
+                p {
+                    text-align: center;
+                    font-size: 1.8em;
+                    font-weight: 600;
+                }
+            }
+
+            .cards-speakers {
+                margin: 3em 0;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 5em 1.5em;
+
+                .card {
+                    height: 40vh;
+                    position: relative;
+                    
+                    img {
+                        border-radius: 3px;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .overlay-data {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        bottom: -2em;
+
+                        .perso {
+                            background: white;
+                            padding: 1em;
+                            border-radius: 3px;
+                            width: 90%;
+                            
+                            span {
+                                font-weight: 600;
+                                color: $blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// partner spage styles
+
+.partner-page {
+
+    .partner-content {
+
+        padding: 5em;
+
+        .title {
+            p  {
+                text-align: center;
+                font-weight: 600;
+                font-size: 1.8em;
+            }
+        }
+
+        .cards-partner {
+            margin: 3em 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3em;
+
+            .card-image {
+                background: white;
+                padding: .5em;
+                @include flex-center;
+                height: 25vh;
+                border-radius: 5px;
+
+                img {
+                    width: 90%;
+                    height: 90%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+
+// schedule page styles
+
+.schedule-page {
+
+    .content-schedule {
+
+        padding: 5em;
+    }
+}

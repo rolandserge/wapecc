@@ -11,7 +11,6 @@ export default function InvestmentClimate() {
                 title="Investment Climate"
                 image="/assets/conference.jpg"
                 subtitle=" Located in the inter-tropical coastal zone of West Africa, Togo is a privileged destination for investment in promising sectors put forward by Togo."
-                more="More"
             />
             <div className="content-info">
                 <div className="info" id="more">

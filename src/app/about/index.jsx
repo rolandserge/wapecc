@@ -12,11 +12,12 @@ export default function About() {
         <section className="about-page">
             <Banner
                 image="/assets/high-profile.jpg"
-                title="About WAPECC in west africa"
-                subtitle="About WAPECC in west africa"
+                title="Why WAPECC in west africa"
+                subtitle="WAPECC23's choice to be held in West Africa underscores the region's significance as a focal point 
+                for energy development and collaboration."
             />
             <div className="about-content">
-                <div className="wapecc piece1">
+                {/* <div className="wapecc piece1">
                     <span>About WAPECC Lome 23</span>
                     <div className="lome">
                         <div className="head">
@@ -96,7 +97,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="wapecc">
                     <span>Why WAPECC23 in West Africa ?</span>
                     <div className="africa">

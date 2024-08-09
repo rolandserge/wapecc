@@ -17,20 +17,22 @@ export default function Nav() {
                     </Link>
                 </li>
                 <li>
-                    <span className={location.pathname === "/about" ? "active": "test"}>Conference</span>
+                    <span className={location.pathname.includes("/conference") ? "active": "test"}>Conference</span>
                     <ul className="submenu">
-                        <li><Link to="/about" className="lien">WHY WAPECC IN WEST AFRICA</Link></li>
-                        <li><Link to="#" className="lien">FULL LIST OF SPEAKERS</Link></li>
-                        <li><Link to="#" className="lien">SCHEDULE</Link></li>
-                        <li><Link to="#" className="lien">PARTNERS</Link></li>
+                        <li><Link to="/conference/wapecc-west-africa" className="lien">WHY WAPECC IN WEST AFRICA</Link></li>
+                        <li><Link to="/conference/speakers" className="lien">FULL LIST OF SPEAKERS</Link></li>
+                        <li><Link to="/conference/schedule" className="lien">SCHEDULE</Link></li>
+                        <li><Link to="/conference/partners" className="lien">PARTNERS</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <Link to="/participate" className={location.pathname === "/participate" ? "contact active": "contact"}>Participate</Link>
-                    {/* <ul className="submenu">0
-                        <li><Link to="#" className="lien">AS A DELEGATE</Link></li>
-                        <li><Link to="/participate/sponsor" className="lien">SPONSORS AND EXHIBITORS</Link></li>
-                    </ul> */}
+                    <Link to="/participate" className={location.pathname.includes("/participate") ? "contact active": "contact"}>Participate</Link>
+                    <ul className="submenu">
+                        <li><Link to="/participate/sponsor" className="lien">SPONSORS</Link></li>
+                        <li><Link to="/participate/as-exhibitor" className="lien">As Exhibitor</Link></li>
+                        <li><Link to="/participate/as-delegate" className="lien">AS A DELEGATE</Link></li>
+                        <li><Link to="/participate/as-partner" className="lien">As partners</Link></li>
+                    </ul>
                 </li>
                 <li>
                     <span className={location.pathname.includes("/host-country") ? "active": "test"}>The host country</span>
@@ -50,23 +52,21 @@ export default function Nav() {
                     </ul>
                 </li>
                 <li>
-                    {/* <span>Downloads</span>
+                    <span>Downloads</span>
                     <ul className="submenu">
-                        <li><Link to="#" className="lien">DOWNLOAD BROCHURE</Link></li>
-                        <li><Link to="#" className="lien">DOWNLOAD THE FEDERAL MINISTER OF POWER&lsquo;S BACKING LETTER</Link></li>
+                        {/* <li><Link to="#" className="lien">DOWNLOAD BROCHURE</Link></li>
                         <li><Link to="#" className="lien">DOWNLOAD YOUR INVITATION</Link></li>
-                        <li><Link to="#" className="lien">WAPECC19 POST SHOW REPORT</Link></li>
-                    </ul> */}
-                    <Link to="/as-delegate" className="contact">As delegate</Link>
+                        <li><Link to="#" className="lien">WAPECC19 POST SHOW REPORT</Link></li> */}
+                    </ul>
                 </li>
                 <li>
                     <span>Media</span>
                     <ul className="submenu">
-                        <li><Link to="#" className="lien">ASSOCIATION MEDIA PARTNERSHIPS</Link></li>
-                        <li><Link to="#" className="lien">NEWS</Link></li>
-                        <li><Link to="#" className="lien">PRESS KIT</Link></li>
-                        <li><Link to="#" className="lien">PHOTO GALLERY</Link></li>
-                        <li><Link to="#" className="lien">VIDEO GALLERY</Link></li>
+                        <li><Link to="/media/association-media-parternship" className="lien">ASSOCIATION MEDIA PARTNERSHIPS</Link></li>
+                        <li><Link to="/media/news" className="lien">NEWS</Link></li>
+                        <li><Link to="/media/press-kit" className="lien">PRESS KIT</Link></li>
+                        <li><Link to="/media/image" className="lien">PHOTO GALLERY</Link></li>
+                        <li><Link to="/media/video" className="lien">VIDEO GALLERY</Link></li>
                     </ul>
                 </li>
                 <li><Link to="/contact" className={location.pathname === "/contact" ? "contact active": "contact"}>Contacts</Link></li>

@@ -9,20 +9,20 @@ export default function Statistic() {
                 <div>
                     <CountUp
                         start={1}
-                        end={1000}
-                        duration={4}
+                        end={500}
+                        duraion={4}
                         separator=" "
                         suffix="+"
                         enableScrollSpy="true"
                     >
                         {({ countUpRef }) => <span ref={countUpRef} />}
                     </CountUp>
-                    <p>Number of Delegates</p>
+                    <p>Delegates</p>
                 </div>
                 <div>
                     <CountUp
                         start={1}
-                        end={100}
+                        end={150}
                         duration={4}
                         separator=" "
                         suffix="+"
@@ -30,12 +30,12 @@ export default function Statistic() {
                     >
                         {({ countUpRef }) => <span ref={countUpRef} />}
                     </CountUp>
-                    <p>Number of Speakers</p>
+                    <p>Companies</p>
                 </div>
                 <div>
                     <CountUp
                         start={1}
-                        end={25}
+                        end={40}
                         duration={4}
                         separator=" "
                         suffix="+"
@@ -43,7 +43,33 @@ export default function Statistic() {
                     >
                         {({ countUpRef }) => <span ref={countUpRef} />}
                     </CountUp>
-                    <p>Number of Exhibitors</p>
+                    <p>Exhibitors</p>
+                </div>
+                <div>
+                    <CountUp
+                        start={1}
+                        end={30}
+                        duration={4}
+                        separator=" "
+                        suffix="+"
+                        enableScrollSpy="true"
+                    >
+                        {({ countUpRef }) => <span ref={countUpRef} />}
+                    </CountUp>
+                    <p>Countries</p>
+                </div>
+                <div>
+                    <CountUp
+                        start={1}
+                        end={15}
+                        duration={4}
+                        separator=" "
+                        suffix="+"
+                        enableScrollSpy="true"
+                    >
+                        {({ countUpRef }) => <span ref={countUpRef} />}
+                    </CountUp>
+                    <p>Governments officials</p>
                 </div>
             </div>
         </section>

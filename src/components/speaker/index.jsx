@@ -12,7 +12,7 @@ export default function Speaker() {
     return (
       <section className='speaker'>
         <div className="title">
-          <h2>OUR VIRTUAL WAPECC21 SPEAKERS</h2>
+          <p>WAPECC Lomé 23 speakers</p>
         </div>
         <div className="container">
           <Swiper
@@ -41,7 +41,7 @@ export default function Speaker() {
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/about.jpeg" 
+                  src="/assets/team1.png" 
                   alt="La deuxieme team"
               />
               <div className='overlay'>
@@ -61,7 +61,7 @@ export default function Speaker() {
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/about.jpeg" 
+                  src="/assets/team1.png" 
                   alt="La deuxieme team"
               />
               <div className='overlay'>
@@ -81,7 +81,7 @@ export default function Speaker() {
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/about.jpeg" 
+                  src="/assets/team1.png" 
                   alt="La deuxieme team"
               />
               <div className='overlay'>

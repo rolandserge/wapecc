@@ -10,7 +10,18 @@ import LocationRegional from './app/host-country/location'
 import Diversification from './app/host-country/diversification'
 import BusinessEnvironnement from './app/host-country/business'
 import Contact from './app/contact'
-import AsDelegate from "./app/as-delegate"
+import AsDelegate from "./app/participate/delegate"
+import AsExhibitor from './app/participate/asExhibitor'
+import AsPartner from './app/participate/asPartner'
+import GaleryVideo from './app/media/video'
+import GaleryImage from './app/media/image'
+import Schedule from './app/about/schedule'
+import Partner from './app/about/partner'
+import Speaker from './app/about/speaker'
+import Association from './app/media/association'
+import News from './app/media/news'
+import PressKit from './app/media/pressKit'
+
 
 function App() {
 
@@ -24,16 +35,52 @@ function App() {
             element: <Home />,
           },
           {
-            path: "/participate",
+            path: "/conference/wapecc-west-africa",
+            element: <About />
+          },
+          {
+            path: "/conference/schedule",
+            element: <Schedule />
+          },
+          {
+            path: "/conference/partners",
+            element: <Partner />
+          },
+          {
+            path: "/conference/speakers",
+            element: <Speaker />
+          },
+          {
+            path: "/participate/sponsor",
             element: <Sponsor />
           },
           {
-            path: "/about",
-            element: <About />
+            path: "/participate/as-delegate",
+            element: <AsDelegate />
+          },
+          {
+            path: "/participate/as-exhibitor",
+            element: <AsExhibitor />
+          },
+          {
+            path: "/participate/as-partner",
+            element: <AsPartner />
           },
           {
             path: "/host-country/investment-climate",
             element: <InvestmentClimate />
+          },
+          {
+            path: "/media/association-media-parternship",
+            element: <Association />
+          },
+          {
+            path: "/media/news",
+            element: <News />
+          },
+          {
+            path: "/media/press-kit",
+            element: <PressKit />
           },
           {
             path: "/host-country/political-environment",
@@ -56,8 +103,12 @@ function App() {
             element: <Register />
           },
           {
-            path: "/as-delegate",
-            element: <AsDelegate />
+            path: "/media/image",
+            element: <GaleryImage />
+          },
+          {
+            path: "/media/video",
+            element: <GaleryVideo />
           },
           {
             path: "/contact",

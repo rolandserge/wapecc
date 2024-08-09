@@ -3,6 +3,7 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { CiStar } from "react-icons/ci";
 import { FaFacebook, FaLinkedin, FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
+import { TbWorldWww } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -74,18 +75,25 @@ export default function Footer() {
                     <h3>Head Office</h3>
                     <ul className="items">
                         <li>
-                            <HiOutlinePhone className="contact" />
-                            <span>+44 (0) 207 129 7356</span>
+                            <HiOutlineEnvelope className="contact" />
+                            <span>info@venturekonect.com</span>
                         </li>
                         <li>
-                            <HiOutlineEnvelope className="contact" />
-                            <span>info@konect-group.com</span>
+                            <TbWorldWww className="contact" />
+                            <span>www.venturekonect.com</span>
+                        </li>
+                        <li className="lieu">
+                            <HiOutlinePhone className="contact" />
+                            <span>
+                                Tel: +44 (0) 207 129 7356 <br /> 
+                                Mob: 00447940581208
+                            </span>
                         </li>
                         <li className="lieu">
                             <TfiLocationPin className="contact" />
                             <span> 
-                                First Floor 85, Great Portland Street,
-                                Marylebone, London W1W 7LT, United Kindow
+                                128 Cannon Workshops, Cannon Drive, 
+                                London E14 4AS
                             </span>
                         </li>
                     </ul>

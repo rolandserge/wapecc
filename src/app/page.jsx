@@ -8,7 +8,6 @@ import Partner from "../components/partner"
 import Official from "../components/partner/official"
 import Speaker from "../components/speaker"
 import Sponsor from "../components/sponsor"
-import ForumHost from "../components/sponsor/forumHost"
 import Testimonial from "../components/testimonial"
 import Statistic from "../components/statistic"
 import Why from "../components/why"
@@ -26,7 +25,6 @@ export default function Home() {
             <Feature />
             <Speaker />
             <Testimonial />
-            <ForumHost />
             <Official />
             <GalerieVideo />
             <Galerie />

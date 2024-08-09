@@ -135,29 +135,16 @@
         margin: 1.5em 0;
         grid-template-columns: repeat(3, 1fr);
         gap: 1em;
-
-        .card-video {
-            height: 40vh;
-            overflow: hidden;
-            border-radius: 4px;
-        }
     }
 
     .action {
         display: flex;
-        justify-content: right;
-        
-        .link {
-            border-radius: 3px;
-            background: $jaune;
-            padding: .6em 2em;
-            text-decoration: none;
-            color: white;
-
-            &:hover {
-                opacity: .8;
-            }
-        }
-
+        justify-content: end;
     }
+}
+
+.card-video {
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 4px;
 }

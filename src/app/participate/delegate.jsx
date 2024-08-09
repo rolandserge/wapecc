@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+
 import Banner from "../../components/banner";
 import SponsorOfficial from "../../components/sponsorOfficial";
 import { sponsors } from "../../data";
+import BespokeNetwork from "../../components/bespoke";
+import ButtonModel from "../../components/button";
 
 export default function AsDelegate() {
 
@@ -57,12 +59,18 @@ export default function AsDelegate() {
                         </p>
                     </div>
                     <div className="action-button">
-                        <Link to="/register" className="register">Register as a delegate</Link>
+                        <ButtonModel
+                            title="Register as a delegate"
+                            lien="#"
+                        />
                     </div>
                 </div>
+
+                <BespokeNetwork />
+
                 <SponsorOfficial 
                     sponsors={sponsors} 
-                    title="Offical endorsing partners"
+                    title="Our partners"
                     features
                 />
             </div>

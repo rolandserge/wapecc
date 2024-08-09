@@ -12,7 +12,7 @@ export default function Sponsor() {
     return (
         <section className='sponsor'>
             <div>
-                <h2>OUR VIRTUAL WAPECC21 OFFICIAL SPONSORS</h2>
+                <p>WAPECC Lomé 23 officals sponsors</p>
             </div>
             <Swiper
                 spaceBetween={15}

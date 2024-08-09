@@ -1,0 +1,56 @@
+// associations media partnerships styles
+.association-partnership {
+
+    .association-partnership-content {
+        padding: 5em;
+    }
+}
+
+
+// news styles
+.news-page {
+
+    .news-content {
+        padding: 5em;
+    }
+} 
+
+
+// press kit styles
+.press-kit-page {
+
+    .press-kit-content {
+        padding: 5em;
+    }
+}
+
+
+// galeire image styles
+.galerie-image-page {
+
+    .content-galerie {
+        padding: 5em;
+
+        .galerie-card {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 2em;
+            margin-bottom: 2em;
+        }
+    }
+}
+
+
+// galeie videos styles
+.galery-video-page {
+
+    .content-galerie-video {
+        padding: 5em;
+
+        .card-galerie-video {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2em;
+        }
+    }
+}

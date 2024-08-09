@@ -24,7 +24,7 @@ export default function Why() {
                 <div className='card-button-action'>
                     <ButtonModel 
                         title="More about us"
-                        lien="#"
+                        lien="/wapecc-west-africa"
                     />
                 </div>
             </div>
