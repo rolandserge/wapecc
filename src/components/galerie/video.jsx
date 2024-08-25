@@ -8,7 +8,7 @@ export default function GalerieVideo() {
     return (
         <section className='galerie-video'>
             <div className="title">
-                <h2>key moments of WAPECC</h2>
+                <p>key moments of WAPECC</p>
             </div>
             <div className="content-video">
                 { videos.slice(0, 3).map(item => (

@@ -53,7 +53,6 @@ export default function AsPartner() {
 
                 <SponsorOfficial
                     sponsors={sponsors}
-                    title="Our sponsors"
                     features
                 />
             </div>

@@ -7,6 +7,12 @@
     position: relative;
     padding: 5em 0;
     height: auto;
+
+    @include responsive(tab-port) {
+        padding: 2em 0;
+        margin: 2.5em 0 ;
+    }
+
     
     .card-stat {
         position: absolute;
@@ -24,9 +30,20 @@
         z-index: 80;
         gap: 5em;
 
+        @include responsive(tab-port) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2em;
+        }
+
+        @include responsive(phone) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
         div {
             @include flex-center;
             flex-direction: column;
+            padding: .5em;
     
             span {
                 color: #fcb900;
@@ -35,6 +52,7 @@
             }
             p {
                 color: white;
+                text-align: center;
             }
         }
     }

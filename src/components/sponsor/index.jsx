@@ -1,9 +1,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/scss';
+// import 'swiper/css';
+// import 'swiper/scss';
 import 'swiper/scss/pagination';
 import 'swiper/scss/autoplay';
+import 'swiper/css/effect-fade';
+import 'swiper/swiper-bundle.css';
+
 
 import { Autoplay } from 'swiper/modules';
 
@@ -12,11 +15,11 @@ export default function Sponsor() {
     return (
         <section className='sponsor'>
             <div>
-                <p>WAPECC Lomé 23 officals sponsors</p>
+                <p>WAPECC Lome23 Official Endorsing Partners</p>
             </div>
             <Swiper
-                spaceBetween={15}
-                slidesPerView={4}
+                spaceBetween={10}
+                slidesPerView={2}
                 modules={[Autoplay]}
                 className='mySwiper'
                 loop={true}
@@ -28,6 +31,22 @@ export default function Sponsor() {
                 }}
                 pagination={{
                     clickable: true,
+                }}
+                breakpoints={{
+                // when window width is >= 640px
+                    600: {
+                        slidesPerView: 3,
+                        spaceBetween: 15
+                    },
+                    900: {
+                        slidesPerView: 4,
+                        spaceBetween: 10
+                    },
+                    1200: {
+                        slidesPerView: 4,
+                        spaceBetween: 10
+                        // min-width: 600
+                    }
                 }}
             >
                 <SwiperSlide className='mySlide'>

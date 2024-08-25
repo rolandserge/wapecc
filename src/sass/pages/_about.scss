@@ -1,18 +1,28 @@
 .about-page {
 
     .about-content {
-        padding: 1em 0 2em 5em;
+        padding: 1em 0 2em 0;
 
-        .piece1 {
-            padding-right: 5em;
-        }
         .wapecc {
-            margin: 2em 0;
+            margin: 5em 0;
+
+            @include responsive(tab-land) {
+                margin: 2em 0;
+            }
 
             span {
                 font-size: 1.5em;
                 width: max-content;
                 position: relative;
+                margin: 0 3.2em;
+
+                @include responsive(tab-land) {
+                    margin: 0 1.4em;
+                }
+
+                @include responsive(phone) {
+                    font-size: 1.2em;
+                } 
 
                 &::after {
                     content: "";
@@ -36,10 +46,18 @@
                     .info {
                         width: 72%;
                         text-align: justify;
+
+                        @include responsive(tab-land) {
+                            width: 50%;
+                        }
                     }
                     .card-image {
-                        height: 50vh;
+                        height: 40vh;
                         width: 28%;
+
+                        @include responsive(tab-land) {
+                            width: 60%;
+                        }
 
                         img {
                             height: 100%;
@@ -49,17 +67,6 @@
                     }
                 }
 
-                .other-info {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    column-gap: 2em;
-                    row-gap: 1em;
-
-                    div {
-                        text-align: justify;
-                        font-size: 1em;
-                    }
-                }
             }
 
             .africa {
@@ -67,16 +74,40 @@
                 text-align: justify;
                 display: flex;
                 gap: 2em;
+
+                @include responsive(tab-land) {
+                    gap: 1.5em;
+                }
+                @include responsive(tab-port) {
+                    flex-direction: column;
+                    gap: 2.5em;
+                }
                 
                 .info {
                     width: 55%;
-                    // padding: .5em;
-                    // border: 1px solid;
+                    padding-left: 5em;
+
+                    @include responsive(tab-land) {
+                        width: 50%;
+                        padding: 0 2em;
+                    }
+
+                    @include responsive(tab-port) {
+                        width: 100%;
+                    }
                 }
                 
                 .card-image {
-                    height: 94vh;
                     width: 45%;
+
+                    @include responsive(tab-land) {
+                        width: 50%;
+                    }
+
+                    @include responsive(tab-port) {
+                        width: 100%;
+                        height: 40vh;
+                    }
 
                     img {
                         height: 100%;
@@ -89,36 +120,41 @@
 
             .togo {
                 margin: 2em 0;
-                padding-right: 5em;
+                padding: 0 5em;
 
-                .items {
-                    display: flex;
-                    gap: 1.5em;
-                    margin: .6em 0;
-
-                    .item {
-                        display: flex;
-                        gap: .8em;
-                        text-align: justify;
-
-                        .icon {
-                            font-size: 30px;
-                            width: 20%;
-                        }
-                    }
+                p {
+                    text-align: justify;
                 }
+
+                @include responsive(tab-land) {
+                    padding: 0 2em;
+                }
+
             }
         }
 
         .about-galerie {
-            padding-right: 5em;
-            margin: 3em 0;
+            padding: 0 5em;
+            margin: 4em 0;
+
+            @include responsive(tab-land) {
+                padding: 0 2em;
+                margin: 3em 0;
+            }
 
             .about-title {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 margin: 2em 0;
+
+                p {
+                    font-size: 1.7em;
+
+                    @include responsive(phone) {
+                        font-size: 1em;
+                    }
+                }
 
                 .lien {
                     text-decoration: none;
@@ -133,6 +169,27 @@
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: .8em;
+
+                @include responsive(tab-land) {
+                    grid-template-columns: repeat(3,auto);
+                    gap: 1.5em;
+                }
+
+                @include responsive(tab-port) {
+                    grid-template-columns: repeat(2, auto);
+                }
+
+                @include responsive(phone) {
+                    grid-template-columns: repeat(1, auto);
+                }
+            }
+        }
+
+        .whySponsor {
+            padding: 0 5em;
+
+            @include responsive(tab-land) {
+                padding: 0 2em;
             }
         }
 
@@ -140,80 +197,16 @@
 }
 
 
-.sponsor-offical-section {
-    margin: 3em 0;
-
-    .feature-user {
-        display: grid;
-        gap: 2em;
-        padding: 3em 0;
-        grid-template-columns: repeat(3, 1fr);
-
-        .card {
-            padding: 3em 2em;
-            border-radius: 5px;
-            background: #dae1ed;
-
-            &:hover {
-                background: $blue;
-                color: white;
-            }
-
-            .head {
-                display: flex;
-                gap: 1em;
-                align-items: center;
-
-                .card-icon {
-                    @include flex-center;
-                    padding: .6em;
-                    border-radius: 50%;
-                    background: white;
-
-                    .icon {
-                        font-size: 40px;
-                        color: black;
-                    }
-                }
-                p {
-                    font-size: 1.3em;
-                }
-            }
-            .description {
-                margin: 1em 0 1.5em 0;
-            }
-
-            .action {
-
-                .register {
-                    text-decoration: none;
-                    display: flex;
-                    align-items: center;
-                    gap: .5em;
-                    text-transform: uppercase;
-                    color: $orange;
-                    font-weight: 600;
-
-                    .icon {
-                        // border: 1px solid;
-                    }
-                }
-            }
-        }
-    }
-
-    .titre {
-        text-align: center;
-        font-size: 1.5em;
-        padding: 2em 0;
-    }
-}
 
 // banner global style
 
 .banner-model {
     height: 55vh;
     position: relative;
+
+    @include responsive(tab-port) {
+        height: 45vh;
+    }
 
     img {
         width: 100%;
@@ -232,14 +225,31 @@
         flex-direction: column;
         gap: 1em;
 
+        @include responsive(tab-port) {
+            padding: 0 1em;           
+        }
+
         h2 {
             font-size: 2.8em;
             text-transform: uppercase;
+            text-align: center;
+
+            @include responsive(tab-port) {
+                font-size: 2em;
+            }
         }
 
         p {
             width: 50%;
             text-align: center;
+
+            @include responsive(tab-port) {
+                width: 70%;
+            }
+
+            @include responsive(phone) {
+                width: 90%;
+            }
         }
     }
 }
@@ -251,6 +261,10 @@
 
     .speaker-page-content {
         padding: 5em;
+
+        @include responsive(tab-land) {
+            padding: 2em;
+        }
 
         .speakers {
 
@@ -268,9 +282,30 @@
                 grid-template-columns: repeat(4, 1fr);
                 gap: 5em 1.5em;
 
+                @include responsive(tab-land) {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+
+                @include responsive(tab-port) {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 4em;
+                }
+
+                @include responsive(phone) {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+
                 .card {
                     height: 40vh;
                     position: relative;
+
+                    @include responsive(tab-port) {
+                        height: 30vh;
+                    }
+
+                    @include responsive(phone) {
+                        height: 40vh;
+                    }
                     
                     img {
                         border-radius: 3px;
@@ -308,8 +343,11 @@
 .partner-page {
 
     .partner-content {
-
         padding: 5em;
+
+        @include responsive(tab-port) {
+            padding: 2em;
+        }
 
         .title {
             p  {
@@ -325,6 +363,15 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 3em;
 
+            @include responsive(tab-port) {
+                grid-template-columns: repeat(3, 1fr); 
+            }
+
+            @include responsive(phone) {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2em 1.5em;
+            }
+
             .card-image {
                 background: white;
                 padding: .5em;
@@ -332,10 +379,19 @@
                 height: 25vh;
                 border-radius: 5px;
 
+                @include responsive(tab-port) {
+                    height: 18vh;
+                }
+
                 img {
                     width: 90%;
                     height: 90%;
                     object-fit: contain;
+
+                    @include responsive(phone) {
+                        width: 75%;
+                        height: 75%;
+                    }
                 }
             }
         }

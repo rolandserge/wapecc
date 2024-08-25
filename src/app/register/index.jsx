@@ -61,7 +61,6 @@ export default function Register() {
 
                 <SponsorOfficial 
                     sponsors={sponsors} 
-                    title="Our partners"
                     features
                 />
             </div>

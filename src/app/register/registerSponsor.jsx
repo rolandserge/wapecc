@@ -58,7 +58,7 @@ export default function RegisterSponsor() {
                     </form>
                 </div>
 
-                <SponsorOfficial sponsors={sponsors} />
+                <SponsorOfficial sponsors={sponsors} features />
             </div>
         </div>
     )

@@ -26,8 +26,17 @@
     .container {
         display: grid;
         padding: 2.5em 5em;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         gap: 2em;
+
+        @include responsive(tab-port) {
+            padding: 2.5em 2em;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include responsive(phone) {
+            grid-template-columns: repeat(1, 1fr);
+        }
 
         .card {
             height: 33vh;
@@ -41,6 +50,7 @@
 
                 p {
                     color: white;
+                    text-align: center;
                 }
             }
 
@@ -65,6 +75,7 @@
                     font-weight: 600;
                     font-size: 1.3em;
                     color: $orange;
+                    text-align: center;
                 }
             }
         }

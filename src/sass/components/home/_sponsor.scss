@@ -2,6 +2,10 @@
     padding: 0 5em;
     margin: 3em 0;
 
+    @include responsive(tab-port) {
+        padding: 0 2em;
+    }
+
     p {
         text-align: center;
         font-size: 1.7em;
@@ -9,17 +13,25 @@
 
     .mySwiper {
         padding: .5em .5em 3em .5em;
-        margin-top: .5em;
         margin-top: 2em;
+
+        @include responsive(tab-port) {
+            padding-bottom: 1.5em;
+        }
 
         .mySlide {
             box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
             border-radius: 5px;
             background: white;
 
+
             .image-container {
                 height: 35vh;
                 @include flex-center;
+
+                @include responsive(tab-port) {
+                    height: 20vh;
+                }
 
                 img {
                     width: 100%;
@@ -36,4 +48,104 @@
 .swiper-pagination-bullet {
     background: $orange;
     padding: .3em;
+}
+
+
+
+
+// sponsor-offical styles
+
+.sponsor-offical-section {
+    margin: 3em 0;
+    // border: 1px solid;
+
+    @include responsive(tab-port) {
+        margin: 0;
+    }
+    
+
+    .feature-user {
+        display: grid;
+        gap: 2em;
+        padding: 3em 0;
+        grid-template-columns: repeat(3, 1fr);
+
+        @include responsive(tab-port) {
+            grid-template-columns: repeat(2, 1fr);
+            padding-top: 1.5em;
+        }
+
+        @include responsive(phone) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .card {
+            padding: 3em 2em;
+            border-radius: 5px;
+            background: #dae1ed;
+
+            &:hover {
+                background: $blue;
+                color: white;
+            }
+
+            .head {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+
+                .card-icon {
+                    @include flex-center;
+                    padding: .6em;
+                    border-radius: 50%;
+                    background: white;
+
+                    .icon {
+                        font-size: 40px;
+                        color: black;
+                    }
+                }
+                p {
+                    font-size: 1.3em;
+                }
+            }
+            .description {
+                margin: 1em 0 1.5em 0;
+            }
+
+            .action {
+
+                .register {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: .5em;
+                    text-transform: uppercase;
+                    color: $orange;
+                    font-weight: 600;
+
+                    .icon {
+                        // border: 1px solid;
+                    }
+                }
+            }
+        }
+    }
+
+    .titre {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 2em 0;
+
+        @include responsive(tab-port) {
+            // border: 1px solid;
+            padding: 1em 0;
+        }
+
+        @include responsive(phone) {
+            // border: 1px solid red;
+            font-size: 1.2em;
+            padding: .8em 0;
+        }
+    }
 }

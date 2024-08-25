@@ -7,6 +7,10 @@
     padding: 3em 5em;
     // overflow: hidden;
 
+    @include responsive(tab-port) {
+        padding: 2em;
+    }
+
     .mySwiper {
 
         .mySlide {
@@ -25,7 +29,7 @@
 
                     .photo {
                         width: 50px;
-                        height: 7.8vh;
+                        height: 50px;
                         border-radius: 50%;
                         overflow: hidden;
 

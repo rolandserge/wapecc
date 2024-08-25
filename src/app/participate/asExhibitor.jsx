@@ -70,7 +70,6 @@ export default function AsExhibitor() {
                     <SponsorOfficial
                         sponsors={sponsors}
                         features
-                        title="Our partners"
                     />
                 </div>
             </div>

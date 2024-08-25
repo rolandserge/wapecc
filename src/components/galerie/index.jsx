@@ -14,7 +14,7 @@ export default function Galerie() {
                 />
             </div>
             <div className="container-galerie">
-                { galeries.map(item => (
+                { galeries.slice(0, 6).map(item => (
                     <CardGalerie
                         key={item.id}
                         items={item}

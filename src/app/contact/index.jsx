@@ -76,7 +76,6 @@ export default function Contact() {
                 </div>
                 <SponsorOfficial 
                     sponsors={sponsors} 
-                    title="Our partners"
                     features
                 />
             </div>

@@ -70,7 +70,6 @@ export default function AsDelegate() {
 
                 <SponsorOfficial 
                     sponsors={sponsors} 
-                    title="Our partners"
                     features
                 />
             </div>

@@ -7,7 +7,7 @@ export default function Partner() {
     return (
         <section className='partner'>
             <SponsorOfficial
-                title="Our partners"
+                title="WAPECC Lome23 Official Sponsors"
                 sponsors={sponsors}
                 features
             />

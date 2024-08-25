@@ -11,7 +11,7 @@ export default function Testimonial() {
         <section className="testimonial">
             <Swiper
                 spaceBetween={30}
-                slidesPerView={2}
+                slidesPerView={1}
                 modules={[Pagination, Autoplay]}
                 autoplay={{
                     delay: 3000,
@@ -21,6 +21,13 @@ export default function Testimonial() {
                 pagination={{
                     clickable: true,
                 }}
+                breakpoints={{
+                // when window width is >= 640px
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                }
+            }}
             >
                 <SwiperSlide className='mySlide'>
                     <div className='message-container'>

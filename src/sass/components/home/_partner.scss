@@ -2,6 +2,11 @@
     padding: 0 5em;
     margin-top: 2em;
 
+    @include responsive(tab-port) {
+        padding: 0 2em;
+        margin-top: 0;
+    }
+
     .title {
         text-align: center;
         padding: 1em 0;
@@ -10,6 +15,10 @@
     .mySwiper {
         margin: 2em 0;
         padding: .5em .5em 3.5em .5em;
+
+        @include responsive(tab-port) {
+            padding-bottom: 1em;
+        }
 
     }
 }

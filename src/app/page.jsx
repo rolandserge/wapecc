@@ -3,9 +3,8 @@ import Feature from "../components/feature"
 import Galerie from "../components/galerie"
 import GalerieVideo from "../components/galerie/video"
 import Banner from "../components/header/banner"
-// import NewSletter from "../components/newsletter"
 import Partner from "../components/partner"
-import Official from "../components/partner/official"
+// import Official from "../components/partner/official"
 import Speaker from "../components/speaker"
 import Sponsor from "../components/sponsor"
 import Testimonial from "../components/testimonial"
@@ -25,10 +24,9 @@ export default function Home() {
             <Feature />
             <Speaker />
             <Testimonial />
-            <Official />
-            <GalerieVideo />
+            {/* <Official /> */}
             <Galerie />
-            {/* <NewSletter /> */}
+            <GalerieVideo />
         </div>
     )
 }

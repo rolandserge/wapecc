@@ -1000,10 +1000,9 @@ export default function Sponsor() {
                     <BespokeNetwork />
                 </div>
 
-                <div style={{ padding: "0 5em"}}>
+                <div className="partner-defil">
                     <SponsorOfficial 
                         sponsors={sponsors} 
-                        title="Our partners"
                         features
                     />
                 </div>

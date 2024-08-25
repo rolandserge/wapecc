@@ -31,11 +31,23 @@
     .content-galerie {
         padding: 5em;
 
+        @include responsive(tab-land) {
+            padding: 3em 2em; 
+        }
+
         .galerie-card {
             display: grid;
             grid-template-columns: repeat(3, auto);
             gap: 2em;
             margin-bottom: 2em;
+
+            @include responsive(tab-port) {
+                grid-template-columns: repeat(2, auto);
+            }
+
+            @include responsive(phone) {
+                grid-template-columns: repeat(1, auto);  
+            }
         }
     }
 }
@@ -47,10 +59,22 @@
     .content-galerie-video {
         padding: 5em;
 
+        @include responsive(tab-land) {
+            padding: 3em 2em;  
+        }
+
         .card-galerie-video {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 2em;
+
+            @include responsive(tab-port) {
+                grid-template-columns: repeat(2, auto);
+            }
+
+            @include responsive(phone) {
+                grid-template-columns: repeat(1, auto);
+            }
         }
     }
 }

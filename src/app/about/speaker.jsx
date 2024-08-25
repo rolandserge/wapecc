@@ -15,7 +15,7 @@ export default function Speaker() {
             <div className="speaker-page-content">
                 <div className="speakers">
                     <div className="title">
-                        <p>the world&apos;s best speakers at Wapecc 23</p>
+                        <p>The world&apos;s best speakers at Wapecc 23</p>
                     </div>
                     <div className="cards-speakers">
                         { speakers.map(speaker => (

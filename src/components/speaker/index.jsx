@@ -12,12 +12,12 @@ export default function Speaker() {
     return (
       <section className='speaker'>
         <div className="title">
-          <p>WAPECC Lomé 23 speakers</p>
+          <p>WAPECC Lome 23 speakers</p>
         </div>
         <div className="container">
           <Swiper
-            spaceBetween={120}
-            slidesPerView={3}
+            spaceBetween={10}
+            slidesPerView={1}
             modules={[Pagination, Autoplay]}
             className='mySwiper'
             autoplay={{
@@ -27,6 +27,22 @@ export default function Speaker() {
             }}
             pagination={{
                 clickable: true,
+            }}
+            breakpoints={{
+                // when window width is >= 640px
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                900: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 120
+                    // min-width: 600
+                }
             }}
           >
             <SwiperSlide className='mySlide'>

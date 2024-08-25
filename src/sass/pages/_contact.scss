@@ -3,13 +3,26 @@
     .contact-content {
         padding: 3em 5em;
 
+        @include responsive(tab-port) {
+        padding: 2em 2em 2em 2.5em;    
+        }
+
         .elements {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 3em;
+
+            @include responsive(tab-port) {
+                flex-direction: column;
+            }
 
             .info {
                 width: 30%;
+
+                @include responsive(tab-port) {
+                    width: 100%;
+                }
                 
                 .data {
                     margin-top: 2em;
@@ -20,7 +33,7 @@
                         p {
                             color: $orange;
                             margin-top: .5em;
-                            font-size: 1.2em;
+                            font-size: 1.1em;
                             font-weight: 600;
                         }
                     }
@@ -29,6 +42,10 @@
 
             .contact-form {
                 width: 60%;
+                
+                @include responsive(tab-port) {
+                   width: 100%; 
+                }
 
                 form {
                     margin-top: 3em;

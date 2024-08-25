@@ -6,6 +6,12 @@ import { HiArrowSmRight } from "react-icons/hi";
 import { PiCodesandboxLogoThin } from "react-icons/pi";
 import { LiaHandshakeSolid, LiaUserTieSolid } from "react-icons/lia";
 
+
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/swiper-bundle.css';
+
+
 export default function SponsorOfficial({ sponsors, title, features }) {
 
   return (
@@ -75,11 +81,11 @@ export default function SponsorOfficial({ sponsors, title, features }) {
             </div>
         ) }
         <div className='titre'>
-            <p>{title ? title : "Our partners"}</p>
+            <p>{title ? title : "WAPECC Lome23 Official Endorsing Partners"}</p>
         </div>
         <Swiper
             spaceBetween={20}
-            slidesPerView={4}
+            slidesPerView={2}
             modules={[Autoplay]}
             className='mySwiper'
             loop={true}
@@ -88,6 +94,23 @@ export default function SponsorOfficial({ sponsors, title, features }) {
                 delay: 0,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
+            }}
+
+            breakpoints={{
+                // when window width is >= 640px
+                600: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                },
+                900: {
+                    slidesPerView: 4,
+                    spaceBetween: 15
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 10
+                    // min-width: 600
+                }
             }}
         >
             { sponsors.map(item => (
