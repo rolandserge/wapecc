@@ -20,7 +20,7 @@ export default function Sponsor() {
                 <div className="intro" id="more">
                     <div className="illustration">
                         <img 
-                            src="/assets/partner.webp" 
+                            src="/assets/sponsorship.jpg" 
                             alt="sponsor illustration"     
                         />
                     </div>
@@ -660,194 +660,7 @@ export default function Sponsor() {
                         <span>Additional Sponsorship Opportunities</span>
                     </div>
                     <div className="cards-package">
-                        <div className="card-element">
-                            <div className="flex">
-                                <div className="head">
-                                    <span>Networking Lounge</span>
-                                    <p>SPONSOR</p>
-                                </div>
-                                <div className="price">
-                                    <p>$15,000</p>
-                                </div>
-                                <div className="info-package">
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Exclusive : </span>
-                                            Exclusive sponsorship of the conference networking lounge.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Branding : </span>
-                                            Branding in the lounge area.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Marketing Material : </span>
-                                            Opportunity to distribute promotional materials.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Advisory Board : </span>
-                                            You will be given 1 place on the Conference Advisory Board
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Speaking Slot : </span> 
-                                            Opportunity to be a part of a plenary session in the conference
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Delegate Passes : </span>
-                                            2 x Passes
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Online Vignette : </span>
-                                            A corporate vignette/Video will be produced
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>1 x Thought leadership:</span> 
-                                            We will provide you with 2 x thought leadership 
-                                            articles to be distributed to the Conference network and media
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="action-button">
-                                <Link to="#" className="register">Register interest</Link>
-                            </div>
-                        </div>
-                        <div className="card-element">
-                            <div>
-                                <div className="head">
-                                    <span>Coffee Break</span>
-                                    <p>SPONSOR</p>
-                                </div>
-                                <div className="price">
-                                    <p>$20.000</p>
-                                </div>
-                                <div className="info-package">
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Sponsorship : </span>
-                                            of a designated coffee break.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Logo visibility : </span>
-                                            during the break and on main screen prior to the plenary resuming.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Branding : </span>
-                                            Branding in the Coffee area.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Marketing Material : </span>
-                                            Opportunity to distribute promotional materials.
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Advisory Board : </span>
-                                            You will be given 1 place on the Conference Advisory Board
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Speaking Slot : </span>
-                                            Opportunity to be a part of a plenary session in the conference
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>Delegate Passes : </span>
-                                            2 x Passes
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>                                    
-                                        <p>
-                                            <span>Online Vignette : </span> 
-                                            A corporate vignette/Video will be produced
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>1 x Thought leadership : </span>
-                                            We will provide you with 2 x thought leadership articles to 
-                                            be distributed to the Conference network and media
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="action-button">
-                                <Link to="#" className="register">Register interest</Link>
-                            </div>
-                        </div>
-                        <div className="card-element">
+                    <div className="card-element">
                             <div>
                                 <div className="head">
                                     <span>Lanyard and Badge</span>
@@ -986,6 +799,194 @@ export default function Sponsor() {
                                         <p>
                                             <span>Delegate Passes : </span>
                                             2 x Passes
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="action-button">
+                                <Link to="#" className="register">Register interest</Link>
+                            </div>
+                        </div>
+                        <div className="card-element">
+                            <div>
+                                <div className="head">
+                                    <span>Coffee Break</span>
+                                    <p>SPONSOR</p>
+                                </div>
+                                <div className="price">
+                                    <p>$20.000</p>
+                                </div>
+                                <div className="info-package">
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Sponsorship : </span>
+                                            of a designated coffee break.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Logo visibility : </span>
+                                            during the break and on main screen prior to the plenary resuming.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Branding : </span>
+                                            Branding in the Coffee area.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Marketing Material : </span>
+                                            Opportunity to distribute promotional materials.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Advisory Board : </span>
+                                            You will be given 1 place on the Conference Advisory Board
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Speaking Slot : </span>
+                                            Opportunity to be a part of a plenary session in the conference
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Delegate Passes : </span>
+                                            2 x Passes
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>                                    
+                                        <p>
+                                            <span>Online Vignette : </span> 
+                                            A corporate vignette/Video will be produced
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>1 x Thought leadership : </span>
+                                            We will provide you with 2 x thought leadership articles to 
+                                            be distributed to the Conference network and media
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="action-button">
+                                <Link to="#" className="register">Register interest</Link>
+                            </div>
+                        </div>
+                        
+                        <div className="card-element">
+                            <div className="flex">
+                                <div className="head">
+                                    <span>Networking Lounge</span>
+                                    <p>SPONSOR</p>
+                                </div>
+                                <div className="price">
+                                    <p>$15,000</p>
+                                </div>
+                                <div className="info-package">
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Exclusive : </span>
+                                            Exclusive sponsorship of the conference networking lounge.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Branding : </span>
+                                            Branding in the lounge area.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Marketing Material : </span>
+                                            Opportunity to distribute promotional materials.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Advisory Board : </span>
+                                            You will be given 1 place on the Conference Advisory Board
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Speaking Slot : </span> 
+                                            Opportunity to be a part of a plenary session in the conference
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Delegate Passes : </span>
+                                            2 x Passes
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Online Vignette : </span>
+                                            A corporate vignette/Video will be produced
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>1 x Thought leadership:</span> 
+                                            We will provide you with 2 x thought leadership 
+                                            articles to be distributed to the Conference network and media
                                         </p>
                                     </div>
                                 </div>

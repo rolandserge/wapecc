@@ -30,7 +30,7 @@ export default function LocationRegional() {
                     </div>
                     <div className="illustration">
                         <img 
-                            src="/assets/togo.jpg"
+                            src="/assets/vue.webp"
                             alt="illustration"
                         />
                     </div>

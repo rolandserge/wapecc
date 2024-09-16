@@ -20,7 +20,9 @@ export default function Speaker() {
                     <div className="cards-speakers">
                         { speakers.map(speaker => (
                             <div className="card" key={speaker.id}>
-                                <img src={speaker.image} alt="Image of speaker" />
+                                <div className="card-image">
+                                    <img src={speaker.image} alt="Image of speaker" />
+                                </div>
                                 <div className="overlay-data">
                                     <div className="perso">
                                         <span>{speaker.name}</span>

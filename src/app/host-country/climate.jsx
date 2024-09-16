@@ -17,7 +17,7 @@ export default function InvestmentClimate() {
                 <div className="info" id="more">
                     <div className="card-image-climate">
                         <img 
-                            src="/assets/climate.jpg" 
+                            src="/assets/pirrogue.jpg" 
                             alt="investment climate"     
                         />
                     </div>

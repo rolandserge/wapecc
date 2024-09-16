@@ -84,7 +84,7 @@ export default function SponsorOfficial({ sponsors, title, features }) {
             <p>{title ? title : "WAPECC Lome23 Official Endorsing Partners"}</p>
         </div>
         <Swiper
-            spaceBetween={20}
+            spaceBetween={25}
             slidesPerView={2}
             modules={[Autoplay]}
             className='mySwiper'
@@ -100,15 +100,15 @@ export default function SponsorOfficial({ sponsors, title, features }) {
                 // when window width is >= 640px
                 600: {
                     slidesPerView: 3,
-                    spaceBetween: 15
+                    spaceBetween: 20
                 },
                 900: {
                     slidesPerView: 4,
-                    spaceBetween: 15
+                    spaceBetween: 20
                 },
                 1200: {
                     slidesPerView: 4,
-                    spaceBetween: 10
+                    spaceBetween: 20
                     // min-width: 600
                 }
             }}

@@ -12,9 +12,6 @@ export default function CardGalerie({ items }) {
                     <p>{items?.pays}</p>
                 </div>
             </div>
-            <div className="titre-galerie">
-                <p>{items?.nom}</p>
-            </div>
         </div>
     )
 }

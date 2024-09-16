@@ -9,6 +9,7 @@ import 'swiper/swiper-bundle.css';
 
 
 import { Autoplay } from 'swiper/modules';
+import { partners } from '../../data';
 
 export default function Sponsor() {
 
@@ -49,46 +50,18 @@ export default function Sponsor() {
                     }
                 }}
             >
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/oriss.jpeg" 
-                            alt="logo de oriss energy"
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/zimpertec.jpg" 
-                            alt="logo de oriss energy"
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/giz.png" 
-                            alt="logo de oriss energy"
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/cip.jpeg" 
-                            alt="logo de cip"
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='mySlide'>
-                    <div className='image-container'>
-                        <img 
-                            src="/assets/ja-solor.jpeg" 
-                            alt="logo de ja solor"
-                        />
-                    </div>
-                </SwiperSlide>
+                { partners.map((partner, index) => (
+                    <SwiperSlide className='mySlide' key={index}>
+                        <div className='image-container'>
+                            <img 
+                                src={partner.image} 
+                                alt="logo du partnes"
+                            />
+                        </div>
+                    </SwiperSlide>
+
+                ))
+                }
             </Swiper>
         </section>
     )

@@ -44,7 +44,7 @@ export default function About() {
                         </div>
                         <div className="card-image">
                             <img
-                                src="/assets/west-africa.jpg" 
+                                src="/assets/west-africab.jpg" 
                                 alt="image west africa"    
                             />
                         </div>

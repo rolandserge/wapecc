@@ -26,16 +26,17 @@
 
 
             .image-container {
-                height: 35vh;
+                height: 30vh;
                 @include flex-center;
+                padding: 1em;
 
                 @include responsive(tab-port) {
                     height: 20vh;
                 }
 
                 img {
-                    width: 100%;
-                    height: 100%;
+                    width: 80%;
+                    height: 80%;
                     object-fit: contain;
                 }
             }

@@ -1,55 +1,47 @@
 export const galeries = [
     {
         id: 1,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
-        image: "/assets/conference.jpg",
+        image: "/assets/gallery/capture.png"
     },
     {
         id: 2,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Dakar 19",
         image: "/assets/gallery/photo19.jpg"
     },
     {
         id: 3,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
         image: "/assets/gallery/photo21a.jpg"
     },
     {
         id: 4,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
-        pays: "Abuja 21",
-        image: "/assets/gallery/photo19a.jpg"
+        pays: "Dakar 19",
+        image: "/assets/gallery/photo19a.jpg",
     },
     {
         id: 5,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Dakar 19",
         image: "/assets/presentation-projet.jpg"
     },
     {
         id: 6,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
         image: "/assets/gallery/photo21.jpg"
     },
     {
         id: 7,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Dakar 19",
         image: "/assets/gallery/photo19a.jpg"
     },
     {
         id: 8,
-        nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
         image: "/assets/gallery/photo21a.jpg"
     }
 ]
 
-export const sponsors = [
+export const partners = [
     {
         id: 1,
         image: "/assets/cie.jpg"
@@ -116,6 +108,33 @@ export const sponsors = [
     },
 ]
 
+export const sponsors = [
+    {
+        id: 1,
+        image: "/assets/cip.jpeg"
+    },
+    {
+        id: 2,
+        image: "/assets/oriss.jpeg"
+    },
+    {
+        id: 3,
+        image: "/assets/cip.jpeg"
+    },
+    {
+        id: 4,
+        image: "/assets/oriss.jpeg"
+    },
+    {
+        id: 5,
+        image: "/assets/cip.jpeg"
+    },
+    {
+        id: 6,
+        image: "/assets/oriss.jpeg"
+    }
+]
+
 export const videos = [
     {
         id: 1,
@@ -166,80 +185,80 @@ export const videos = [
 export const speakers = [
     {
         id: 1,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 2,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 3,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 4,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 5,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 6,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 7,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 8,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 9,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 10,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 11,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 12,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     },
     {
         id: 13,
-        name: "Mr Bah F.M Saho",
-        poste: "Excecutive Director of ECREEE",
-        image: "/assets/team1.png"
+        name: "Name of speaker",
+        poste: "Role",
+        image: "/assets/user.webp"
     }
 ]

@@ -25,14 +25,19 @@
 
 // partner style global
 .container-partner-card {
-    height: 15vh;
+    // height: 20vh;
     margin-bottom: .5em;
     @include flex-center;
+    background: white;
+    padding: 1em;
+    border-radius: 3px;
 
     img {
-        height: 100%;
-        width: 100%;
-        object-fit: contain;;
+        // width: 80%;
+        height: 25vh;
+        // height: auto;
+        object-fit: cover;
+        // border: 1px solid;
     }
 }
 // Offical endorsing partners

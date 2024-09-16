@@ -25,28 +25,25 @@ export default function Banner() {
             modules={[Autoplay, Navigation]}
             className="banner"
         >
-            {/* <SwiperSlide>
-                <img 
-                    src="/assets/banner.jpg" 
-                    alt="slide 1"
-                    width="100%"
-                    height="100%"
-                />
-            </SwiperSlide> */}
+            <div className='fond' />
+            
             <SwiperSlide>
-                <img src="/assets/slide/slide1.JPG" alt="Slide 2" />
+                <img src='/assets/slide/slide4.webp' alt='slide 5' />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src='/assets/collage2.jpg' alt='slide 5' />
             </SwiperSlide>
             <SwiperSlide>
                 <img src="/assets/slide/slide2.JPG" alt="Slide 3" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="/assets/slide/slide3.jpg" alt="Slide 4" />
-            </SwiperSlide>
-            <SwiperSlide>
                 <img src="/assets/collage1.jpg" alt="Slide 5" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src='/assets/collage2.jpg' alt='slide 5' />
+                <img src="/assets/slide/slide1.JPG" alt="Slide 2" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="/assets/slide/slide3.jpg" alt="Slide 4" />
             </SwiperSlide>
         </Swiper>
     )

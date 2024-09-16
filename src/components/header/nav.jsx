@@ -59,7 +59,7 @@ export default function Nav() {
                 <li>
                     <span className={location.pathname.includes("/downloads") ? "active": "test"}>Downloads</span>
                     <ul className="submenu">
-                        <li><Link to="#" className="lien">Wapecc23 post show report</Link></li>
+                        <li><Link to="#" className="lien">Brochure Wapecc Lome23</Link></li>
                         <li><Link to="/downloads/report-21" className="lien">wapecc21 post show report</Link></li>
                         <li><Link to="/downloads/report-19" className="lien">WAPECC19 POST SHOW REPORT</Link></li>
                     </ul>

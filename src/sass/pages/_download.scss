@@ -6,7 +6,7 @@
         .content {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 3em;
+            gap: 2em;
 
             .brochure {
                 
@@ -30,7 +30,7 @@
                     .flex {
                         display: flex;
                         grid-template-columns: repeat(2, 1fr);
-                        gap: 2em;
+                        gap: 1em;
 
                         input {
                             width: 100%;

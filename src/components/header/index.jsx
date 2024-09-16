@@ -4,10 +4,13 @@ export default function Header() {
     return (
         <section className="header-container">
             <div className='logo'>
-                <img
-                    src='/assets/logo-wapecc.png'
-                    alt="Logo de l'entreprise"
-                />
+                <div className="card-image">
+                    <img
+                        src='/assets/logo-wapecc.png'
+                        alt="Logo de l'entreprise"
+                    />
+                </div>
+                <p>19th- 21 March 2025- Lome</p>
             </div>
             <div className="logo">
                 <img 
@@ -16,10 +19,14 @@ export default function Header() {
                 />
             </div>
             <div className="logo">
-               <img 
-                    src="/assets/logo/apua.jpeg" 
-                    alt="Logo du cedeao"
-                />
+                <p>Facilitor</p>
+                <div className="card-image">
+                    <img 
+                        src="/assets/logo/apua.jpeg" 
+                        alt="Logo du cedeao"
+                    />
+                </div>
+                <p>The Association of Power Utilities of Africa (APUA)</p>
             </div>
         </section>
     )

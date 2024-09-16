@@ -17,7 +17,7 @@ export default function About() {
                         and chaired by Monsieur Robert Koffi Messan EKLO, Minister Delegate to the President of the Republic in charge Mines and 
                         Energy resources of Togo, with the facilitation of the Association of Power Utilities of Africa (APUA), and the support 
                         of the West African Development Bank, Venture Konect Ltd & partners are pleased to present the 3rd edition of the West 
-                        Africa Power and Energy Cooperation Conference (WAPECC23), Which will take place tentatively from the <strong>19th-21st 2025 in Lomé.</strong> 
+                        Africa Power and Energy Cooperation Conference (WAPECC23), Which will take place tentatively from the <strong>19th-21st March 2025 in Lomé.</strong> 
                         <br />
                         { more && (
                             <>
@@ -32,7 +32,7 @@ export default function About() {
                 </div>
                 <div className='image-card'>
                     <img 
-                        src="/assets/about.jpeg" 
+                        src="/assets/about.jpg" 
                         alt="About image"
                     />
                 </div>

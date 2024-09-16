@@ -21,11 +21,12 @@ export default function WapeccAbuja() {
                                 <input type="text" placeholder='Enter your first name' name="" id="" />
                                 <input type="text" name="" placeholder='Enter your lastName' id="" />
                             </div>
-                            <div>
-                                <input type="email" placeholder='Enter your email' id="" />
+                            <div className='flex'>
+                                <input type="number" placeholder='Enter your number phone' name="" id="" />
+                                <input type="text" placeholder='Enter the Compagny Name' name="" id="" />
                             </div>
                             <div>
-                                <input type="number" placeholder='Enter your number phone' name="" id="" />
+                                <input type="email" placeholder='Enter your email' id="" />
                             </div>
                             <div>
                                 <button>Submit</button>
