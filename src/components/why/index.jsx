@@ -6,7 +6,7 @@ export default function Why() {
         <section className='why'>
             <div className='card-image'>
                 <img 
-                    src="/assets/africa.webp" 
+                    src="/assets/west-africa.jpg" 
                     alt="pourquoi wapecc en Afrique de l'ouest"     
                 />
             </div>
@@ -24,7 +24,7 @@ export default function Why() {
                 <div className='card-button-action'>
                     <ButtonModel 
                         title="More about us"
-                        lien="/wapecc-west-africa"
+                        lien="/co0000000000000nference/wapecc-west-africa"
                     />
                 </div>
             </div>

@@ -43,8 +43,8 @@ export default function About() {
                             </p>
                         </div>
                         <div className="card-image">
-                            <img 
-                                src="/assets/africa.webp" 
+                            <img
+                                src="/assets/west-africa.jpg" 
                                 alt="image west africa"    
                             />
                         </div>

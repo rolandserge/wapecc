@@ -13,13 +13,11 @@ export default function About() {
                         <span>About WAPECC Lome23</span>
                     </div>
                     <p>
-                        Under the awaited esteemed Patronage of His Excellency 
-                        Mr. Faure Essozimna Gnassingbé, President of the Republic of Togo, and 
-                        chaired by Madame Mawunyo Mila Ami AZIABLE, Minister Delegate to the President of the Republic in charge of Energy and Mines 
-                        of Togo, with the facilitation of the ECOWAS Energy and Mines Commission and the support 
-                        of the West African Development Bank, Venture Konect Ltd is pleased to present the 3rd edition 
-                        of the West Africa Power and Energy Cooperation Conference (WAPECC23). This event is tentatively 
-                        scheduled to take place from January <strong>23rd to 25th, 2025, in Lomé, Togo</strong>.
+                        Under the awaited esteemed Patronage of His Excellency Mr. Faure Essozimna Gnassingbé, President of the Republic of Togo, 
+                        and chaired by Monsieur Robert Koffi Messan EKLO, Minister Delegate to the President of the Republic in charge Mines and 
+                        Energy resources of Togo, with the facilitation of the Association of Power Utilities of Africa (APUA), and the support 
+                        of the West African Development Bank, Venture Konect Ltd & partners are pleased to present the 3rd edition of the West 
+                        Africa Power and Energy Cooperation Conference (WAPECC23), Which will take place tentatively from the <strong>19th-21st 2025 in Lomé.</strong> 
                         <br />
                         { more && (
                             <>

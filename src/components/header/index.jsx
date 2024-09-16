@@ -11,13 +11,13 @@ export default function Header() {
             </div>
             <div className="logo">
                 <img 
-                    src="/assets/logo-togo.jpeg" 
+                    src="/assets/logo-togo.png" 
                     alt="Logo official du Togo"
                 />
             </div>
             <div className="logo">
                <img 
-                    src="/assets/cedeao.png" 
+                    src="/assets/logo/apua.jpeg" 
                     alt="Logo du cedeao"
                 />
             </div>

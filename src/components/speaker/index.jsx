@@ -47,62 +47,62 @@ export default function Speaker() {
           >
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/team1.png" 
+                  src="/assets/user.webp" 
                   alt="La premiere team"
               />
               <div className='overlay'>
-                  <span>Mr Bah F.M Saho</span>
-                  <p>Excecutive Director of ECREEE</p>
+                  <span>Name of speaker</span>
+                  <p>Role</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/team1.png" 
+                  src="/assets/user.webp" 
                   alt="La deuxieme team"
               />
               <div className='overlay'>
-                  <span>Prof Honoré Bogler</span>
-                  <p>Chairman of ERERA</p>
+                  <span>Name of speaker</span>
+                  <p>Role</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/team1.png" 
+                  src="/assets/user.webp" 
                   alt="La premiere team"
               />
               <div className='overlay'>
-                  <span>Mr Bah F.M Saho</span>
-                  <p>Excecutive Director of ECREEE</p>
+                  <span>Name of speaker</span>
+                  <p>Role</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/team1.png" 
+                  src="/assets/user.webp" 
                   alt="La deuxieme team"
               />
               <div className='overlay'>
-                  <span>Prof Honoré Bogler</span>
-                  <p>Chairman of ERERA</p>
+                  <span>Name of speaker</span>
+                  <p>Role</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/team1.png" 
+                  src="/assets/user.webp" 
                   alt="La premiere team"
               />
               <div className='overlay'>
-                  <span>Mr Bah F.M Saho</span>
-                  <p>Excecutive Director of ECREEE</p>
+                  <span>Name of speaker</span>
+                  <p>Role</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='mySlide'>
               <img 
-                  src="/assets/team1.png" 
+                  src="/assets/user.webp" 
                   alt="La deuxieme team"
               />
               <div className='overlay'>
-                  <span>Prof Honoré Bogler</span>
-                  <p>Chairman of ERERA</p>
+                  <span>Name of speaker</span>
+                  <p>Role</p>
               </div>
             </SwiperSlide>
           </Swiper>

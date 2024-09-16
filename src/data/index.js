@@ -9,19 +9,19 @@ export const galeries = [
         id: 2,
         nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Dakar 19",
-        image: "/assets/trade-exhibition.jpg"
+        image: "/assets/gallery/photo19.jpg"
     },
     {
         id: 3,
         nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
-        image: "/assets/conference.jpg"
+        image: "/assets/gallery/photo21a.jpg"
     },
     {
         id: 4,
         nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
-        image: "/assets/high-profile.jpg"
+        image: "/assets/gallery/photo19a.jpg"
     },
     {
         id: 5,
@@ -33,19 +33,19 @@ export const galeries = [
         id: 6,
         nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
-        image: "/assets/debate.jpg"
+        image: "/assets/gallery/photo21.jpg"
     },
     {
         id: 7,
         nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Dakar 19",
-        image: "/assets/presentation-projet.jpg"
+        image: "/assets/gallery/photo19a.jpg"
     },
     {
         id: 8,
         nom: "Le discours du DG Lorem, ipsum. Lorem, ipsum dolor.",
         pays: "Abuja 21",
-        image: "/assets/debate.jpg"
+        image: "/assets/gallery/photo21a.jpg"
     }
 ]
 

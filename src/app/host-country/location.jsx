@@ -13,7 +13,7 @@ export default function LocationRegional() {
             />
             <div className="location-content">
                 <div className="content">
-                    <div>
+                    <div className="data">
                         <p>
                             Togo&apos;s geographical position at the heart of West Africa makes it an ideal host for WAPECC 23. 
                             Togo is the only country on the West African coast with a natural deep-water port with a draft of 16.6m.

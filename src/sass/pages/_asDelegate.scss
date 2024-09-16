@@ -3,18 +3,34 @@
     .as-delegate-content {
         padding: 3em 5em;
 
+        @include responsive(tab-land) {
+            padding: 2em;
+        }
+
         .elements {
 
             margin-bottom: 5em;
 
+            @include responsive(tab-port) {
+                margin-bottom: 2em;
+            }
+
             .delegate {
                 display: flex;
                 align-items: center;
-                gap: 3em;
+                gap: 2em;
                 margin-bottom: 2em;
 
+                @include responsive(tab-port) {
+                    flex-direction: column;
+                }
+
                 .info {
-                    width: 50%;
+                    width: 40%;
+
+                    @include responsive(tab-port) {
+                        width: 100%;
+                    }
                     
                     p {
                         text-align: justify;
@@ -27,7 +43,11 @@
                 }
 
                 .tableau {
-                    width: 50%;
+                    width: 60%;
+
+                    @include responsive(tab-port) {
+                        width: 100%;
+                    }
 
                     p {
                         text-decoration: underline;
@@ -37,17 +57,29 @@
                         margin-top: 1em;
                         border-collapse: collapse;
                     }
-                    table, th, td {
+                    table, td {
                         border: 1px solid;
                         padding: .7em;
+                    }
+
+                    @include responsive(phone) {
+
+                        td {
+                            padding: .5em;
+                            min-width: 150px;
+                        }
                     }
                       
                 }
             }
 
             .participation {
-                width: 48%;
+                width: 39%;
                 margin-bottom: 3em;
+
+                @include responsive(tab-port) {
+                    width: 100%;
+                }
 
                 p {
                     text-align: justify;

@@ -27,35 +27,47 @@ export default function AsDelegate() {
                             <br />
                             <p className="title">
                                 <span>Delegate participation:</span> Super Early bird Booking 
-                                rates available, contact: info@wapecc.com
+                                rates available, contact: <mark>info@wapecc.com</mark>
                             </p>
                         </div>
                         <div className="tableau">
                             <p>Price strategy : </p>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td>No of Dels</td>
-                                        <td>
-                                            Super early bird Delegate Rate
-                                        </td>
-                                        <td>Super Early Bird VIP Delegate Rate</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Per person</td>
-                                        <td>£500.00 ex VAT if applicable</td>
-                                        <td>£1000.00 ex VAT if applicable</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                            <div style={{ overflowX: "auto"}}>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td><span style={{ color: "red"}}>Super Early bird until 25th Oct.24</span></td>
+                                            <td><span style={{ color: "red"}}>2nd Early bird until 13th Dec 24</span></td>
+                                            <td><span style={{ color: "red"}}>3nd Early bird until 31</span></td>
+                                            <td><span style={{ color: "red"}}>Jan 25 standard rate</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Standard Delegate</td>
+                                            <td>£500</td>
+                                            <td>£999.99</td>
+                                            <td>£1249.99</td>
+                                            <td>£1999.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP Delegate</td>
+                                            <td>£1249.99</td>
+                                            <td>£1999.99</td>
+                                            <td>£2449.99</td>
+                                            <td>£3249.99</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            </div>
                     </div>
                     <div className="participation">
                         <p>
-                            <strong>VIP Del :</strong> Access to full Strategic Conference programme Exclusive networking 
-                            lunches and coffee breaks Access to the full list of exhibitors Access 
-                            to full Knowledge Hub programme Networking and entertainment events Access 
-                            to matchmaking and connection platform, Executive.
+                            <strong>VIP Del :</strong> Access to full Strategic Conference programme Exclusive 
+                            networking lunches and coffee breaks Access to the full list of exhibitors Access 
+                            to full Knowledge Hub programme Networking and entertainment events Access to 
+                            matchmaking and connection platform, Executive, possibility to be part of the  
+                            WAPECC Lome 23  Private Diner, subject to qualification.
                         </p>
                     </div>
                     <div className="action-button">

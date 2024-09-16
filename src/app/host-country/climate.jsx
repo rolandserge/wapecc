@@ -10,7 +10,8 @@ export default function InvestmentClimate() {
             <Banner
                 title="Investment Climate"
                 image="/assets/conference.jpg"
-                subtitle=" Located in the inter-tropical coastal zone of West Africa, Togo is a privileged destination for investment in promising sectors put forward by Togo."
+                subtitle=" Located in the inter-tropical coastal zone of West Africa, 
+                Togo is a privileged destination for investment in promising sectors put forward by Togo."
             />
             <div className="content-info">
                 <div className="info" id="more">

@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import RootLayout from './layout/rootLayout'
-import About from './app/about'
+import About from './app/conference'
 import Home from "./app/page"
 import InvestmentClimate from './app/host-country/climate'
 import Sponsor from './app/participate'
@@ -15,12 +15,14 @@ import AsExhibitor from './app/participate/asExhibitor'
 import AsPartner from './app/participate/asPartner'
 import GaleryVideo from './app/media/video'
 import GaleryImage from './app/media/image'
-import Schedule from './app/about/schedule'
-import Partner from './app/about/partner'
-import Speaker from './app/about/speaker'
+import Schedule from './app/conference/schedule'
+import Partner from './app/conference/partner'
+import Speaker from './app/conference/speaker'
 import Association from './app/media/association'
 import News from './app/media/news'
 import PressKit from './app/media/pressKit'
+import WapeccAbuja from './app/download/wapeccAbuja'
+import WapeccDakar from './app/download/wapeccDakar'
 
 
 function App() {
@@ -113,6 +115,14 @@ function App() {
           {
             path: "/contact",
             element: <Contact />
+          },
+          {
+            path: "/downloads/report-21",
+            element: <WapeccAbuja />
+          },
+          {
+            path: "/downloads/report-19",
+            element: <WapeccDakar />
           }
         ]
       }

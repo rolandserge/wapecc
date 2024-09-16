@@ -3,12 +3,12 @@
     justify-content: space-between;
     align-items: center;
     background: white;
-    height: 20vh;
+    height: 25vh;
     // padding: 0 1em;
     // border: 1px solid;
 
     @include responsive(tab-port) {
-        height: 15vh;
+        height: 20vh;
     }
 
     .logo {
@@ -16,10 +16,10 @@
         width: 33.33%;
         // border: 1px solid;
         @include flex-center;
-        height: 15vh;
+        height: 22vh;
 
         @include responsive(tab-port) {
-            height: 10vh;
+            height: 17vh;
         }
         
         img {
@@ -160,7 +160,8 @@ nav {
                 opacity: 0;
                 transform: translateX(2em);
                 transition: all 0.5s ease-in-out;
-                padding: 1em;
+                padding: 2em 3em;
+                border-radius: 4px;
 
                 &.open {
                     transform: translateX(0);
@@ -183,7 +184,7 @@ nav {
                     }
                     .contact {
                         text-decoration: none;
-                        color: white;
+                        color: black;
                 
                         &:hover {
                             color: #fcb900;
@@ -193,25 +194,27 @@ nav {
                         }
                     }
 
-                    .submenu {
-                        height: 0;
-                        overflow: hidden;
-                        transition: height .5s ease-in-out;
+                    .accordeons {
+                        display: grid; 
+                        grid-template-rows: 0fr;
+                        transition: .5s grid-template-rows ease;
+
+                        & > ul {
+                            overflow: hidden;
+                        }
 
                         li {
-                            font-size: .5em;
+                            // font-size: .5em;
                             font-weight: normal;
                         }
                         .lien {
                             text-decoration: none;
                             color: black;
-                            text-transform: capitalize;
+                            // text-transform: capitalize;
                         }
 
                         &.open {
-                            height: 100%;
-                            overflow: visible;
-                            transition: height .6s ease-in-out;
+                            grid-template-rows: 1fr;
                         }
                     }
                 }

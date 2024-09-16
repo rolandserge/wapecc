@@ -252,6 +252,7 @@
 
             p {
                 margin-top: 1em;
+                text-align: justify;
             }
         }
 
@@ -280,9 +281,14 @@
     .strategic-partner {
         padding: 2em 5em;
 
+        @include responsive(tab-land) {
+            padding: 2em;
+        }
+
         .head-title {
             margin-bottom: 1.5em;
             width: max-content;
+
             p {
                 display: flex;
                 flex-direction: column;
@@ -293,6 +299,10 @@
                     width: 100%;
                     height: .7vh;
                     background: $jaune;
+
+                    @include responsive(phone) {
+                      height: .5vh;  
+                    }
                 }
             }
         }
@@ -312,11 +322,23 @@
     
     .content {
         padding: 2em 5em;
+
+        @include responsive(tab-land) {
+            padding: 2em;
+        }
         
         .floor-image {
             width: 100%;
             height: 75vh;
             margin: 1.5em 0;
+
+            @include responsive(tab-port) {
+                height: 50vh;
+            }
+
+            @include responsive(tab-port) {
+                height: 30vh;
+            }
 
             img {
                 width: 100%;
@@ -336,14 +358,37 @@
             .descr {
                 width: 40%;
                 text-align: center;
+
+                @include responsive(tab-land) {
+                    width: 50%;
+                }
+
+                @include responsive(tab-port) {
+                    width: 80%;
+                }
+
+                @include responsive(phone) {
+                    width: 100%;
+                }
             }
             .card {
-                border: 1px solid;
                 width: 50%;
                 padding: 3em;
                 border-radius: 5px;
                 background: $blue;
                 margin: 2em 0;
+
+                @include responsive(tab-land) {
+                    width: 60%;
+                }
+
+                @include responsive(tab-port) {
+                    width: 80%;
+                }
+
+                @include responsive(phone) {
+                    width: 100%;
+                }
 
                 .head {
                     border-bottom: 1px solid #f1f1f1;
@@ -375,6 +420,17 @@
                         cursor: pointer;
                         margin-bottom: .5em;
                     }
+
+                    .card-illustration {
+
+                        img {
+
+                            @include responsive(tab-port) {
+                                width: 100%;
+                            }
+                        }
+                    }
+
                     .reduction {
                         margin-top: 1.5em;
                         color: white;
@@ -416,6 +472,10 @@
                         &:hover {
                             background: #a4623f;
                             color: white;
+                        }
+
+                        @include responsive(phone) {
+                            width: 100%;
                         }
                     }
                 }

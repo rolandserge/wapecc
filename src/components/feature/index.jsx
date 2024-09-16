@@ -10,7 +10,7 @@ export default function Feature() {
             <div className="container">
                 <div className='card'>
                     <img 
-                        src="/assets/b2b-meeting.png" 
+                        src="/assets/b2b.jpg" 
                         alt="B2B meetings"
                     />
                     <div className='overlay'>
