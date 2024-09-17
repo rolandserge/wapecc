@@ -10,7 +10,7 @@ export default function Header() {
                         alt="Logo de l'entreprise"
                     />
                 </div>
-                <p>19th- 21 March 2025- Lome</p>
+                <p>19th- 21st March 2025 - Lome</p>
             </div>
             <div className="logo">
                 <img 
@@ -26,7 +26,7 @@ export default function Header() {
                         alt="Logo du cedeao"
                     />
                 </div>
-                <p>The Association of Power Utilities of Africa (APUA)</p>
+                <p>The Association of Power Utilities of Africa (APUA)</p>
             </div>
         </section>
     )

@@ -55,7 +55,7 @@ export default function Sponsor() {
                         <div className="card-element">
                             <div>
                                 <div className="head">
-                                    <span>Diamond sponsorship opportunity</span>
+                                    <span>Diamond and Event Sponsor</span>
                                     <p>package</p>
                                 </div>
                                 <div className="price">
@@ -203,7 +203,7 @@ export default function Sponsor() {
                         <div className="card-element">
                             <div>
                                 <div className="head">
-                                    <span>PLATINUM</span>
+                                    <span>PLATINUM sponsor</span>
                                     <p>package</p>
                                 </div>
                                 <div className="price">
@@ -231,24 +231,7 @@ export default function Sponsor() {
                                             <IoIosCheckmarkCircle className="icon" />
                                         </div>
                                         <p>
-                                            You will have 2 places at the WAPECC23 Private VIP Dinner
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            On the opening day you will have 2 VIP places at the Ministerial and CEO Dinner
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>VIP Networking Access : </span> 
-                                            You get 5 VIP delegates passes to access the whole event
+                                            You will have 2 places at the Private Dinner exclusive to Ministers and CEOs
                                         </p>
                                     </div>
                                     <div className="element">
@@ -257,7 +240,7 @@ export default function Sponsor() {
                                         </div>
                                         <p>
                                             <span>Keynote Speaking Slot : </span>
-                                            Opportunity to deliver a speech at the Private  VIP Dinner
+                                            Opportunity to deliver a speech at the Private VIP Dinner (Prior to qualification)
                                         </p>
                                     </div>
                                     <div className="element">
@@ -271,19 +254,10 @@ export default function Sponsor() {
                                     <div className="element">
                                         <div className="card-icon">
                                             <IoIosCheckmarkCircle className="icon" />
-                                        </div>                                    
-                                        <p>
-                                            <span>VIP Networking Access : </span>
-                                            3 x Exclusive access to the Extraordinary VIP Room
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
                                         </div>
                                         <p>
-                                            <span>Sponsorship branding : </span>
-                                            Acknowledgment as a Platinum Sponsor in all conference signage
+                                            <span>VIP Networking Access : </span> 
+                                            3 x Exclusive access to the Extraordinary VIP Room
                                         </p>
                                     </div>
                                     <div className="element">
@@ -293,6 +267,32 @@ export default function Sponsor() {
                                         <p>
                                             <span>Delegate Passes : </span>
                                             As platinum sponsor you will get 8 passes to the Conference as access all areas
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>                                    
+                                        <p>
+                                            <span>Choice of Premier Sponsorship : </span>
+                                            Lunch, Welcome Drink, Closing Ceremony, Lanyards, Registration, Programme, badges, Opening video, Session introduction of your choice ( Moderator opportunity)
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            You will have the opportunity to submit a corporate vignette/video to be played before opening of your chosen sponsored session.
+                                        </p>
+                                    </div>
+                                    <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>Designated Table : </span>
+                                            Have your table at the First Day lunch (this allows you to invite key participants to join you at the table)
                                         </p>
                                     </div>
                                     <div className="element">
@@ -363,7 +363,7 @@ export default function Sponsor() {
                         <div className="card-element item-gold">
                             <div>
                                 <div className="head">
-                                    <span>Gold</span>
+                                    <span>Gold Sponsor</span>
                                     <p>package</p>
                                 </div>
                                 <div className="price">
@@ -376,7 +376,7 @@ export default function Sponsor() {
                                         </div>
                                         <p>
                                             <span>Exhibition Space : </span>
-                                            Premium location for your 20 metre booth to maximize visibility.
+                                            Premium location for your 12 metre booth to maximize visibility.
                                         </p>
                                     </div>
                                     <div className="element">
@@ -406,15 +406,6 @@ export default function Sponsor() {
                                         <p>
                                             <span>Keynote Speaking Slot : </span>
                                             Opportunity to deliver 2 speakers on a plenary session
-                                        </p>
-                                    </div>
-                                    <div className="element">
-                                        <div className="card-icon">
-                                            <IoIosCheckmarkCircle className="icon" />
-                                        </div>
-                                        <p>
-                                            <span>VIP Networking Access :</span> 
-                                            2 x Exclusive access to the Extraordinary Ministerial and CEO Dialogue
                                         </p>
                                     </div>
                                     <div className="element">
@@ -465,6 +456,15 @@ export default function Sponsor() {
                                             vignette/video to be played before opening of sessions post coffee
                                         </p>
                                     </div>
+                                    {/* <div className="element">
+                                        <div className="card-icon">
+                                            <IoIosCheckmarkCircle className="icon" />
+                                        </div>
+                                        <p>
+                                            <span>VIP Networking Access :</span> 
+                                            2 x Exclusive access to the Extraordinary Ministerial and CEO Dialogue
+                                        </p>
+                                    </div> */}
                                     <div className="element">
                                         <div className="card-icon">
                                             <IoIosCheckmarkCircle className="icon" />
@@ -494,7 +494,7 @@ export default function Sponsor() {
                         <div className="card-element">
                             <div>
                                 <div className="head">
-                                    <span>Silver</span>
+                                    <span>Silver Sponsor</span>
                                     <p>package</p>
                                 </div>
                                 <div className="price">
@@ -507,7 +507,7 @@ export default function Sponsor() {
                                         </div>
                                         <p>
                                             <span>Exhibition Space : </span>
-                                            Premium location for your 20 metre booth to maximize visibility
+                                            Premium location for your 6 metre booth to maximize visibility.
                                         </p>
                                     </div>
                                     <div className="element">
@@ -584,7 +584,7 @@ export default function Sponsor() {
                         <div className="card-element item-bronze">
                             <div>
                                 <div className="head">
-                                    <span>Bronze</span>
+                                    <span>Bronze Sponsor</span>
                                     <p>package</p>
                                 </div>
                                 <div className="price">
@@ -597,7 +597,7 @@ export default function Sponsor() {
                                         </div>
                                         <p>
                                             <span>Exhibition Space : </span>
-                                            Premium location for your 12 metre booth to maximize visibility.
+                                            Premium location for your 6 metre booth to maximize visibility.
                                         </p>
                                     </div>
                                     <div className="element">

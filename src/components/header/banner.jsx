@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { Link } from "react-router-dom"
 
 import { Autoplay, Navigation } from 'swiper/modules';
 
@@ -25,7 +26,16 @@ export default function Banner() {
             modules={[Autoplay, Navigation]}
             className="banner"
         >
-            <div className='fond' />
+            <div className='fond'>
+                <div className="info">
+                    <span>19TH - 21ST March 2025 TOGO - Lomé</span>
+                    <div>
+                        <p>Sustainable Energy Solutions for West Africa :</p>
+                        <p>Navigating Challenges, Embracing Opportunities</p>
+                    </div>
+                    <Link to="#" className='agenda'>Agenda</Link>
+                </div>
+            </div>
             
             <SwiperSlide>
                 <img src='/assets/slide/slide4.webp' alt='slide 5' />
